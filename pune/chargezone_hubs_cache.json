@@ -263,6 +263,26 @@
       "is_chargezone_direct": true
     },
     {
+      "station_id": "CZ_67da867de6380829d2277a1f",
+      "cz_id": "67da867de6380829d2277a1f",
+      "name": "MH | Andheri | Times Square - Nilkanth Tech Park",
+      "brand": "ChargeZone",
+      "address": "Andheri - Kurla Rd, Gamdevi, Marol, Andheri East, Mumbai, Maharashtra 400059",
+      "latitude": 19.10787915,
+      "longitude": 72.88364549,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_62bc4ba89c9124c0463ad4ab",
+      "cz_id": "62bc4ba89c9124c0463ad4ab",
+      "name": "MH | Ghodbunder | Hotel Express Inn",
+      "brand": "ChargeZone",
+      "address": "National Highway 8,Nr  Versova, versova, Mira bhayandar, maharashtra-401107",
+      "latitude": 19.28381,
+      "longitude": 72.90508,
+      "is_chargezone_direct": true
+    },
+    {
       "station_id": "CZ_678e26a69d0bdde604dca85f",
       "cz_id": "678e26a69d0bdde604dca85f",
       "name": "MH | Mumbai | Arsh Hyundai",
@@ -270,6 +290,126 @@
       "address": "Ground Floor, Godrej Coliseum, Somaiya Hospital Rd, off Eastern Express Highway, GTB Nagar, Lalbaug, Everard Nagar, Sion, Mumbai, Maharashtra 400022",
       "latitude": 19.05002295232907,
       "longitude": 72.8769746163951,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_651a7c97cb136de3885a8850",
+      "cz_id": "651a7c97cb136de3885a8850",
+      "name": "MH | Mumbai | BKC - MMRDA Pay & Park",
+      "brand": "ChargeZone",
+      "address": "G Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+      "latitude": 19.066765,
+      "longitude": 72.870235,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_67bd4d517fe653dea13fedbb",
+      "cz_id": "67bd4d517fe653dea13fedbb",
+      "name": "MH | Mumbai | BKC - MMRDA Pay & Park - Nr. UTI Tower",
+      "brand": "ChargeZone",
+      "address": "Parking lot at Bandra Kurla Complex, \"GN\" Block, Near Arya Vidya Mandir and behind BKC Police Station plot no. RG 1B (Near UTI Parking)",
+      "latitude": 19.065931228821757,
+      "longitude": 72.85891458427281,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_676259dd6cd04c32ec37fede",
+      "cz_id": "676259dd6cd04c32ec37fede",
+      "name": "MH | Mumbai | BKC Trident Hub 1st floor",
+      "brand": "ChargeZone",
+      "address": "Trindent, 3V89+R64 Mumbai, Maharashtra, BKC, Mumbai, 400051, Maharashtra, India",
+      "latitude": 19.067011453249993,
+      "longitude": 72.86808205682658,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_653f3f86923c931eb442ae84",
+      "cz_id": "653f3f86923c931eb442ae84",
+      "name": "MH | Mumbai | Courtyard by Marriott Mumbai International Airport",
+      "brand": "ChargeZone",
+      "address": "Cts 215, Andheri - Kurla Rd, opposite Carnival Cinemas, Andheri East, Mumbai, Maharashtra 400059",
+      "latitude": 19.114313578070025,
+      "longitude": 72.86421154058438,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_62e4b5155995fe172cf0c311",
+      "cz_id": "62e4b5155995fe172cf0c311",
+      "name": "MH | Mumbai | JW Marriott Mumbai Juhu",
+      "brand": "ChargeZone",
+      "address": "Juhu Tara Rd, Juhu Tara,  Juhu, Mumbai,  Maharashtra 400049",
+      "latitude": 19.1015319,
+      "longitude": 72.8265925,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_62b97fea1d6fa41836230671",
+      "cz_id": "62b97fea1d6fa41836230671",
+      "name": "MH | Mumbai | JW Marriott Sahar",
+      "brand": "ChargeZone",
+      "address": "Chhatrapati Shivaji International Airport, IA Project Rd, Navpada, Vile Parle East, Vile Parle, Andheri, Maharashtra 400099",
+      "latitude": 19.102517630170716,
+      "longitude": 72.87825362847501,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6350f11eaf27764f2a792f86",
+      "cz_id": "6350f11eaf27764f2a792f86",
+      "name": "MH | Mumbai | MB#Auto Hangar India Pvt Ltd - Vile Parley",
+      "brand": "ChargeZone",
+      "address": "AUTO HANGAR INDIA PRIVATE LIMITED Vishnu Prasad Society, Shanaji Raje Marg, Vile Parle East, Vile Parle, Mumbai, Maharashtra 400057",
+      "latitude": 19.108558402714156,
+      "longitude": 72.84641391873818,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_637c5cad53e058acf549fe6f",
+      "cz_id": "637c5cad53e058acf549fe6f",
+      "name": "MH | Mumbai | MB#Autohangar India Pvt Ltd - Prabhadevi",
+      "brand": "ChargeZone",
+      "address": "Auto Hangar Advantage, Grd Flr, Appasaheb Murate Marg, Nr Century Bazar, Prabhadevi, Mumbai, Maharashtra 400025",
+      "latitude": 19.01306176915633,
+      "longitude": 72.8252146460915,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6350f021af27764f2a792d63",
+      "cz_id": "6350f021af27764f2a792d63",
+      "name": "MH | Mumbai | MB#Land Mark Cars Kalina",
+      "brand": "ChargeZone",
+      "address": "Metro Estate, 178, CST Road, Kalina, Santacruz East, Mumbai, Maharashtra 400098",
+      "latitude": 19.073392868041992,
+      "longitude": 72.86936950683594,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6350ef9caf27764f2a792c85",
+      "cz_id": "6350ef9caf27764f2a792c85",
+      "name": "MH | Mumbai | MB#Land Mark Cars Thane",
+      "brand": "ChargeZone",
+      "address": "PLOT NO. 275-1, NR. ST. XEVIER'S SCHOOL,GHODBUNDER ROAD, PATLIPADA, THANE (WEST),400607.",
+      "latitude": 19.241851806640625,
+      "longitude": 72.9763412475586,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6350eed9af27764f2a792b2c",
+      "cz_id": "6350eed9af27764f2a792b2c",
+      "name": "MH | Mumbai | MB#Land Mark Cars Turbhe",
+      "brand": "ChargeZone",
+      "address": "Land Mark Cars PLOT NO D 36/2,TURBHE SANPADA ROAD, MIDC THANE BELAPUR ROAD TTC INDUSTRIAL ESTATE,TURBHE, NAVI MUMBAI",
+      "latitude": 19.06200381725278,
+      "longitude": 73.02629423115688,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_67bd4d537fe653dea13ff4a7",
+      "cz_id": "67bd4d537fe653dea13ff4a7",
+      "name": "MH | Mumbai | NESCO Ltd.",
+      "brand": "ChargeZone",
+      "address": "NESCO, Goregaon, Mumbai, Maharashtra 400063",
+      "latitude": 19.147766121337803,
+      "longitude": 72.85557258539994,
       "is_chargezone_direct": true
     },
     {
@@ -283,6 +423,56 @@
       "is_chargezone_direct": true
     },
     {
+      "station_id": "CZ_62a9b89a49a4ba43f1c65447",
+      "cz_id": "62a9b89a49a4ba43f1c65447",
+      "name": "MH | Mumbai | NSCI - Worli",
+      "brand": "ChargeZone",
+      "address": "NSCI, Lala Lajpatrai Marg, Lotus Colony, Worli, Mumbai, Maharashtra 400018",
+      "latitude": 18.98643139007783,
+      "longitude": 72.81485316717153,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_676be7cde2050be5df2bf550",
+      "cz_id": "676be7cde2050be5df2bf550",
+      "name": "MH | Mumbai | Navi Mumbai Marriott Hotel",
+      "brand": "ChargeZone",
+      "address": "D, TTC Estate, 264, Thane - Belapur Rd, Turbhe MIDC, Turbhe, Navi Mumbai, Maharashtra 400703",
+      "latitude": 19.068880864967415,
+      "longitude": 73.01969231,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_690db828e65aa7d132ef18d1",
+      "cz_id": "690db828e65aa7d132ef18d1",
+      "name": "MH | Mumbai | ONE BKC (KRT)",
+      "brand": "ChargeZone",
+      "address": "G Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+      "latitude": 19.060742,
+      "longitude": 72.86515688,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_698ab631c16331359f7179bb",
+      "cz_id": "698ab631c16331359f7179bb",
+      "name": "MH | Mumbai | One Unity Center",
+      "brand": "ChargeZone",
+      "address": "2R5M+VQX, Senapati Bapat Marg, Dadar West, Lower Prel, Mumbai, Maharashtra 400013",
+      "latitude": 19.009988,
+      "longitude": 72.834987,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6930158bcd31cf22a530444e",
+      "cz_id": "6930158bcd31cf22a530444e",
+      "name": "MH | Mumbai | One World Center (OWC)",
+      "brand": "ChargeZone",
+      "address": "841, Senapati Bapat Marg, Elphinstone, Saidham Nagar, Lower Parel, Mumbai, Maharashtra 400013",
+      "latitude": 19.00672789,
+      "longitude": 72.83274839,
+      "is_chargezone_direct": true
+    },
+    {
       "station_id": "CZ_641a9f6f995a5fcf4dc4d83f",
       "cz_id": "641a9f6f995a5fcf4dc4d83f",
       "name": "MH | Mumbai | The Resort Madh",
@@ -293,6 +483,16 @@
       "is_chargezone_direct": true
     },
     {
+      "station_id": "CZ_62b981411d6fa437bd2313e6",
+      "cz_id": "62b981411d6fa437bd2313e6",
+      "name": "MH | Mumbai | The Westin Mumbai Powai Lake",
+      "brand": "ChargeZone",
+      "address": "The Westin Mumbai Powai Lake Kailash Nagar, Morarji Nagar, Powai, Mumbai, Maharashtra 400076",
+      "latitude": 19.134097049976777,
+      "longitude": 72.9010022662562,
+      "is_chargezone_direct": true
+    },
+    {
       "station_id": "CZ_65360b05c951b0a5ed2c5d5e",
       "cz_id": "65360b05c951b0a5ed2c5d5e",
       "name": "MH | Mumbai | Ultra Fast Charging e-tron hub",
@@ -300,6 +500,76 @@
       "address": "Bandra-Kurla Complex, G Block Road, Bandra East, Mumbai, Maharashtra 400051",
       "latitude": 19.06244430545395,
       "longitude": 72.86098449511299,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_65799362d4b7df9acf0227fd",
+      "cz_id": "65799362d4b7df9acf0227fd",
+      "name": "MH | Mumbai | ibis Navi Mumbai",
+      "brand": "ChargeZone",
+      "address": "D 266, Ttc Industrial Estate, Turbhe, Navi Mumbai, Maharashtra 400705",
+      "latitude": 19.067860146588647,
+      "longitude": 73.01968469166535,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_64427145cae2238b18277ff5",
+      "cz_id": "64427145cae2238b18277ff5",
+      "name": "MH | Navi Mumbai | Capital EV Car Rental",
+      "brand": "ChargeZone",
+      "address": "Kashi vihar society, plot no 28, sector 19,Ulwe wahal, Navi Mumbai 410206",
+      "latitude": 18.973298,
+      "longitude": 73.031177,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_62f088e1b543062a1c8428a3",
+      "cz_id": "62f088e1b543062a1c8428a3",
+      "name": "MH | Navi Mumbai | Four Points By Sheraton Navi Mumbai",
+      "brand": "ChargeZone",
+      "address": "Plot 39/1 6 To 15, Sector 30A,  Vashi, Navi Mumbai,  Maharashtra 400701",
+      "latitude": 19.066195,
+      "longitude": 72.999284,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_645f3076dcb24e2e55053cab",
+      "cz_id": "645f3076dcb24e2e55053cab",
+      "name": "MH | Navi Mumbai | Le M\u00e9ridien Navi Mumbai",
+      "brand": "ChargeZone",
+      "address": "D-33, Turbhe Midc Rd, TTC Industrial Area, MIDC Industrial Area, Turbhe, Navi Mumbai, Maharashtra 400705.",
+      "latitude": 19.06349,
+      "longitude": 73.027686,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_690db23d01e8e5a49f681142",
+      "cz_id": "690db23d01e8e5a49f681142",
+      "name": "MH | Powai | Prima Bay",
+      "brand": "ChargeZone",
+      "address": "CTS No.117A/1D, GateNo.5, TC-II, Saki Vihar Road, Powai, Mumbai, Maharashtra - 400072",
+      "latitude": 19.12441646,
+      "longitude": 72.89367662,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6a61e563d0b235f0cf608947",
+      "cz_id": "6a61e563d0b235f0cf608947",
+      "name": "MH | Thane | Community Charging Phillipa Roads Enclave",
+      "brand": "ChargeZone",
+      "address": "Rodas Enclave, Hiranandani Estate, Thane West, Phillipa, Thane, Maharashtra 400607",
+      "latitude": 19.260865109693725,
+      "longitude": 72.98577878461057,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_676e8c94e2050be5df9c6650",
+      "cz_id": "676e8c94e2050be5df9c6650",
+      "name": "MH | Thane | Modi Hyundai",
+      "brand": "ChargeZone",
+      "address": "Modi House 1 Eastern Express Highway opp LIC Bldg., Naupada, Louis Wadi, Thane West, Maharashtra 400602",
+      "latitude": 19.19343132553356,
+      "longitude": 72.96349502,
       "is_chargezone_direct": true
     },
     {
@@ -320,6 +590,36 @@
       "address": "26, Panvel Matheran Rd, Sector 12, New Panvel East, Panvel, Navi Mumbai, Maharashtra 410206 MH",
       "latitude": 18.9982207,
       "longitude": 73.1215071,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_69d89c88ce3bddf18c6a219e",
+      "cz_id": "69d89c88ce3bddf18c6a219e",
+      "name": "Approach Auto Clinic - Mumbai",
+      "brand": "ChargeZone",
+      "address": "178, Tokersi Jivraj Road, Sewree",
+      "latitude": 18.99347,
+      "longitude": 72.84861,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6954bd688cf183eceb1ab409",
+      "cz_id": "6954bd688cf183eceb1ab409",
+      "name": "Auto Bhan, Mumbai",
+      "brand": "ChargeZone",
+      "address": "Unit Number 4, P Shed, Cotton Green, Plot Number Old RR 1929, Sewri (East, Mumbai, Maharashtra 400009",
+      "latitude": 18.9585499,
+      "longitude": 72.8389409,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6954bd688cf183eceb1ab39d",
+      "cz_id": "6954bd688cf183eceb1ab39d",
+      "name": "KTC Mumbai",
+      "brand": "ChargeZone",
+      "address": "Plot No R99, MIDC Area Rd, MIDC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400701",
+      "latitude": 19.137158,
+      "longitude": 73.011412,
       "is_chargezone_direct": true
     },
     {
@@ -360,6 +660,16 @@
       "address": "Jaai Automobiles Mumbai Agra National Highway",
       "latitude": 19.379165,
       "longitude": 73.210168,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6964d5c3b7968d03c4cf4d9a",
+      "cz_id": "6964d5c3b7968d03c4cf4d9a",
+      "name": "Mahakali EV Charging",
+      "brand": "ChargeZone",
+      "address": "kashi vihar society, Ulwe, navi\u00a0Mumbai",
+      "latitude": 18.97333,
+      "longitude": 73.031,
       "is_chargezone_direct": true
     },
     {
@@ -463,6 +773,26 @@
       "is_chargezone_direct": true
     },
     {
+      "station_id": "CZ_6954bd688cf183eceb1ab46c",
+      "cz_id": "6954bd688cf183eceb1ab46c",
+      "name": "Shreenath KIA",
+      "brand": "ChargeZone",
+      "address": "Air Force, Kiran Mill Colony, Thane West, Thane",
+      "latitude": 19.2409995,
+      "longitude": 72.9918837,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6aa585807da80cab69c7138f",
+      "cz_id": "6aa585807da80cab69c7138f",
+      "name": "LEVICON10",
+      "brand": "ChargeZone",
+      "address": "Parking Area Rayat Shikshan Sansthas Veer Wajekar Arts Science And commerce College Mahalan Vibhag Phunde, Uran, Funde, Maharashtra 400702, India",
+      "latitude": 18.8944321,
+      "longitude": 72.9758226,
+      "is_chargezone_direct": true
+    },
+    {
       "station_id": "CZ_67e58b542a6dd3b44cade42b",
       "cz_id": "67e58b542a6dd3b44cade42b",
       "name": "Harekrishna Petroleum",
@@ -470,6 +800,16 @@
       "address": "AAMANE ON PADGA KALYAN ROAD,SH46 TAL BHIWANDI",
       "latitude": 19.319267,
       "longitude": 73.159816,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6a5ca14539308857d2bc5de5",
+      "cz_id": "6a5ca14539308857d2bc5de5",
+      "name": "Power Hub EV Charging Station",
+      "brand": "ChargeZone",
+      "address": "shakti chowk, Beturkar Pada Kalyan west.",
+      "latitude": 19.2483206,
+      "longitude": 73.1304074,
       "is_chargezone_direct": true
     },
     {
@@ -513,5 +853,5 @@
       "is_chargezone_direct": true
     }
   ],
-  "discovered_at": 1792452689.512316
+  "discovered_at": 1792520884.887351
 }

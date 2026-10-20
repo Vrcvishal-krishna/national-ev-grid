@@ -2188,5 +2188,21 @@
       "availableCount": 3,
       "totalCount": 3
     }
+  ],
+  "159": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "854": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
   ]
 }

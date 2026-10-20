@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-10-20T23:49:08.125772",
-  "display_time": "23:49:08",
+  "timestamp": "2026-10-20T23:57:18.773154",
+  "display_time": "23:57:18",
   "feed_network": "STATIQ_TATA_POWER_CHARGEZONE_JIOBP_AHMEDABAD_FEED",
   "metrics": {
     "total_guns": 863,
-    "active_charging": 11,
-    "available_guns": 566,
-    "faulted_guns": 286,
-    "occupancy_rate_pct": 1.3,
-    "available_pct": 65.6,
-    "operational_health_pct": 66.9,
-    "total_energy_kwh_24h": 0.0,
-    "lifetime_energy_kwh": 0.0,
-    "total_sessions_24h": 11,
-    "lifetime_sessions": 11,
-    "completed_sessions_24h": 0,
-    "lifetime_completed_sessions": 0,
-    "avg_session_duration_min": 48.5,
-    "lifetime_avg_duration_min": 49.5,
+    "active_charging": 9,
+    "available_guns": 570,
+    "faulted_guns": 284,
+    "occupancy_rate_pct": 1.0,
+    "available_pct": 66.0,
+    "operational_health_pct": 67.1,
+    "total_energy_kwh_24h": 105.7,
+    "lifetime_energy_kwh": 87.1,
+    "total_sessions_24h": 15,
+    "lifetime_sessions": 12,
+    "completed_sessions_24h": 3,
+    "lifetime_completed_sessions": 3,
+    "avg_session_duration_min": 8.2,
+    "lifetime_avg_duration_min": 8.2,
     "top_station": "GJ | Ahmedabad | Aslali",
-    "peak_load_pct_24h": 1.3,
-    "peak_load_time_24h": "23:49",
-    "peak_active_guns_24h": 11
+    "peak_load_pct_24h": 1.2,
+    "peak_load_time_24h": "23:57",
+    "peak_active_guns_24h": 10
   },
   "cpo_distribution": {
     "Sunfuel": 4,
@@ -38,256 +38,256 @@
   },
   "recent_history": [
     {
-      "time": "23:49",
+      "time": "23:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "00:49",
+      "time": "00:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "01:49",
+      "time": "01:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "02:49",
+      "time": "02:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "03:49",
+      "time": "03:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "04:49",
+      "time": "04:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "05:49",
+      "time": "05:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "06:49",
+      "time": "06:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "07:49",
+      "time": "07:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "08:49",
+      "time": "08:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "09:49",
+      "time": "09:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "10:49",
+      "time": "10:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "11:49",
+      "time": "11:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "12:49",
+      "time": "12:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "13:49",
+      "time": "13:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "14:49",
+      "time": "14:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "15:49",
+      "time": "15:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "16:49",
+      "time": "16:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "17:49",
+      "time": "17:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "18:49",
+      "time": "18:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "19:49",
+      "time": "19:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "20:49",
+      "time": "20:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "21:49",
+      "time": "21:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "22:49",
+      "time": "22:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "23:49",
-      "active": 11,
-      "pct": 1.3
+      "time": "23:57",
+      "active": 10,
+      "pct": 1.2
     }
   ],
   "trend_history_24h": [
     {
-      "time": "23:49",
+      "time": "23:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "00:49",
+      "time": "00:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "01:49",
+      "time": "01:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "02:49",
+      "time": "02:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "03:49",
+      "time": "03:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "04:49",
+      "time": "04:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "05:49",
+      "time": "05:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "06:49",
+      "time": "06:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "07:49",
+      "time": "07:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "08:49",
+      "time": "08:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "09:49",
+      "time": "09:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "10:49",
+      "time": "10:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "11:49",
+      "time": "11:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "12:49",
+      "time": "12:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "13:49",
+      "time": "13:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "14:49",
+      "time": "14:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "15:49",
+      "time": "15:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "16:49",
+      "time": "16:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "17:49",
+      "time": "17:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "18:49",
+      "time": "18:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "19:49",
+      "time": "19:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "20:49",
+      "time": "20:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "21:49",
+      "time": "21:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "22:49",
+      "time": "22:57",
       "active": 0,
       "pct": 0.0
     },
     {
-      "time": "23:49",
-      "active": 11,
-      "pct": 1.3
+      "time": "23:57",
+      "active": 10,
+      "pct": 1.2
     }
   ],
   "daily_summary": [
@@ -301,7 +301,7 @@
       "ports_count": 10,
       "active_now": 3,
       "total_sessions_24h": 3,
-      "total_kwh_24h": 0.0,
+      "total_kwh_24h": 26.7,
       "total_duration_min": 0.0,
       "utilization_pct": 0.0
     },
@@ -315,7 +315,7 @@
       "ports_count": 2,
       "active_now": 1,
       "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
+      "total_kwh_24h": 8.9,
       "total_duration_min": 0.0,
       "utilization_pct": 0.0
     },
@@ -329,21 +329,7 @@
       "ports_count": 2,
       "active_now": 1,
       "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": "ST-5011",
-      "name": "GLIDA MG Motors Ambawadi",
-      "cpo": "GLIDA",
-      "location": "Ground Floor, Ahmedabad, Gujarat, 380006, India",
-      "latitude": 23.023235,
-      "longitude": 72.548489,
-      "ports_count": 2,
-      "active_now": 1,
-      "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
+      "total_kwh_24h": 8.9,
       "total_duration_min": 0.0,
       "utilization_pct": 0.0
     },
@@ -357,35 +343,7 @@
       "ports_count": 2,
       "active_now": 1,
       "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": "ST-8137",
-      "name": "PARMAR TRADE LINK",
-      "cpo": "BPCL",
-      "location": "DRIVEIN ROAD,AHMEDABAD, Ahmedabad, Gujarat, 380052, India",
-      "latitude": 23.045512,
-      "longitude": 72.539544,
-      "ports_count": 2,
-      "active_now": 1,
-      "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": "ST-11227",
-      "name": "Shell Recharge Chandkheda",
-      "cpo": "Shell Recharge",
-      "location": " Ahmedabad - Patan Highway Rd, Ahmedabad, Gujarat, 382424, India",
-      "latitude": 23.125496,
-      "longitude": 72.582982,
-      "ports_count": 2,
-      "active_now": 1,
-      "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
+      "total_kwh_24h": 8.9,
       "total_duration_min": 0.0,
       "utilization_pct": 0.0
     },
@@ -399,7 +357,7 @@
       "ports_count": 4,
       "active_now": 1,
       "total_sessions_24h": 1,
-      "total_kwh_24h": 0.0,
+      "total_kwh_24h": 8.9,
       "total_duration_min": 0.0,
       "utilization_pct": 0.0
     },
@@ -413,9 +371,107 @@
       "ports_count": 1,
       "active_now": 1,
       "total_sessions_24h": 1,
+      "total_kwh_24h": 6.1,
+      "total_duration_min": 0.0,
+      "utilization_pct": 0.0
+    },
+    {
+      "station_id": "ST-8468",
+      "name": "GJ | Ahmedabad | Renaissance Ahmedabad Hotel",
+      "cpo": "ChargeZone",
+      "location": "Behind Ganesh Meridian Complex Sola Road, Ahmedabad, Gujarat, 380060, India",
+      "latitude": 23.075644,
+      "longitude": 72.526971,
+      "ports_count": 1,
+      "active_now": 1,
+      "total_sessions_24h": 1,
       "total_kwh_24h": 0.0,
       "total_duration_min": 0.0,
       "utilization_pct": 0.0
+    },
+    {
+      "station_id": 5011,
+      "name": "GLIDA MG Motors Ambawadi",
+      "cpo": "GLIDA",
+      "location": "Ground Floor, Ahmedabad, Gujarat, 380006, India",
+      "latitude": 23.023235,
+      "longitude": 72.548489,
+      "ports_count": 2,
+      "active_now": 0,
+      "total_sessions_24h": 1,
+      "total_kwh_24h": 8.9,
+      "total_duration_min": 8.17745636701584,
+      "utilization_pct": 0.3
+    },
+    {
+      "station_id": "ST-5011",
+      "name": "GLIDA MG Motors Ambawadi",
+      "cpo": "GLIDA",
+      "location": "Ground Floor, Ahmedabad, Gujarat, 380006, India",
+      "latitude": 23.023235,
+      "longitude": 72.548489,
+      "ports_count": 2,
+      "active_now": 0,
+      "total_sessions_24h": 1,
+      "total_kwh_24h": 8.9,
+      "total_duration_min": 8.17745636701584,
+      "utilization_pct": 0.3
+    },
+    {
+      "station_id": 8137,
+      "name": "PARMAR TRADE LINK",
+      "cpo": "BPCL",
+      "location": "DRIVEIN ROAD,AHMEDABAD, Ahmedabad, Gujarat, 380052, India",
+      "latitude": 23.045512,
+      "longitude": 72.539544,
+      "ports_count": 2,
+      "active_now": 0,
+      "total_sessions_24h": 1,
+      "total_kwh_24h": 6.1,
+      "total_duration_min": 8.17745636701584,
+      "utilization_pct": 0.3
+    },
+    {
+      "station_id": "ST-8137",
+      "name": "PARMAR TRADE LINK",
+      "cpo": "BPCL",
+      "location": "DRIVEIN ROAD,AHMEDABAD, Ahmedabad, Gujarat, 380052, India",
+      "latitude": 23.045512,
+      "longitude": 72.539544,
+      "ports_count": 2,
+      "active_now": 0,
+      "total_sessions_24h": 1,
+      "total_kwh_24h": 6.1,
+      "total_duration_min": 8.17745636701584,
+      "utilization_pct": 0.3
+    },
+    {
+      "station_id": 11227,
+      "name": "Shell Recharge Chandkheda",
+      "cpo": "Shell Recharge",
+      "location": " Ahmedabad - Patan Highway Rd, Ahmedabad, Gujarat, 382424, India",
+      "latitude": 23.125496,
+      "longitude": 72.582982,
+      "ports_count": 2,
+      "active_now": 0,
+      "total_sessions_24h": 1,
+      "total_kwh_24h": 3.7,
+      "total_duration_min": 8.17745636701584,
+      "utilization_pct": 0.3
+    },
+    {
+      "station_id": "ST-11227",
+      "name": "Shell Recharge Chandkheda",
+      "cpo": "Shell Recharge",
+      "location": " Ahmedabad - Patan Highway Rd, Ahmedabad, Gujarat, 382424, India",
+      "latitude": 23.125496,
+      "longitude": 72.582982,
+      "ports_count": 2,
+      "active_now": 0,
+      "total_sessions_24h": 1,
+      "total_kwh_24h": 3.7,
+      "total_duration_min": 8.17745636701584,
+      "utilization_pct": 0.3
     },
     {
       "station_id": 1614,
@@ -508,20 +564,6 @@
       "location": "MG Ahmedabad Makarba MG Ahmedabad Plot no 2, Ahmedabad, Gujarat, 380051, India",
       "latitude": 22.996682,
       "longitude": 72.498227,
-      "ports_count": 2,
-      "active_now": 0,
-      "total_sessions_24h": 0,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": 5011,
-      "name": "GLIDA MG Motors Ambawadi",
-      "cpo": "GLIDA",
-      "location": "Ground Floor, Ahmedabad, Gujarat, 380006, India",
-      "latitude": 23.023235,
-      "longitude": 72.548489,
       "ports_count": 2,
       "active_now": 0,
       "total_sessions_24h": 0,
@@ -676,20 +718,6 @@
       "location": "Thaltej Underbridge, Ahmedabad, Gujarat, 380059, India",
       "latitude": 23.048198,
       "longitude": 72.515997,
-      "ports_count": 2,
-      "active_now": 0,
-      "total_sessions_24h": 0,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": 8137,
-      "name": "PARMAR TRADE LINK",
-      "cpo": "BPCL",
-      "location": "DRIVEIN ROAD,AHMEDABAD, Ahmedabad, Gujarat, 380052, India",
-      "latitude": 23.045512,
-      "longitude": 72.539544,
       "ports_count": 2,
       "active_now": 0,
       "total_sessions_24h": 0,
@@ -1041,20 +1069,6 @@
       "latitude": 23.00513,
       "longitude": 72.66853,
       "ports_count": 4,
-      "active_now": 0,
-      "total_sessions_24h": 0,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": 11227,
-      "name": "Shell Recharge Chandkheda",
-      "cpo": "Shell Recharge",
-      "location": " Ahmedabad - Patan Highway Rd, Ahmedabad, Gujarat, 382424, India",
-      "latitude": 23.125496,
-      "longitude": 72.582982,
-      "ports_count": 2,
       "active_now": 0,
       "total_sessions_24h": 0,
       "total_kwh_24h": 0.0,
@@ -3631,20 +3645,6 @@
       "latitude": 23.027638,
       "longitude": 72.512553,
       "ports_count": 2,
-      "active_now": 0,
-      "total_sessions_24h": 0,
-      "total_kwh_24h": 0.0,
-      "total_duration_min": 0.0,
-      "utilization_pct": 0.0
-    },
-    {
-      "station_id": "ST-8468",
-      "name": "GJ | Ahmedabad | Renaissance Ahmedabad Hotel",
-      "cpo": "ChargeZone",
-      "location": "Behind Ganesh Meridian Complex Sola Road, Ahmedabad, Gujarat, 380060, India",
-      "latitude": 23.075644,
-      "longitude": 72.526971,
-      "ports_count": 1,
       "active_now": 0,
       "total_sessions_24h": 0,
       "total_kwh_24h": 0.0,
@@ -16657,10 +16657,10 @@
           "power_kw": 120.0,
           "rate_inr": 13.0,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 120.0,
           "effective_kw": 65.0
         },
@@ -16755,10 +16755,10 @@
           "power_kw": 120.0,
           "rate_inr": 13.0,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 120.0,
           "effective_kw": 65.0
         },
@@ -16950,10 +16950,10 @@
           "type": "CCS-2 (120kW)",
           "power_kw": 120.0,
           "rate_inr": 19.99,
-          "status": "CHARGING",
-          "duration_display": "1s",
+          "status": "AVAILABLE",
+          "duration_display": "-",
           "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
+          "duration": "-",
           "kwh": "0.0 kWh",
           "allocated_kw": 120.0,
           "effective_kw": 65.0
@@ -16999,7 +16999,7 @@
           "type": "CCS-2 (180kW)",
           "power_kw": 180.0,
           "rate_inr": 24.0,
-          "status": "FAULTED",
+          "status": "AVAILABLE",
           "duration_display": "-",
           "est_kwh_display": "0.0 kWh",
           "duration": "-",
@@ -17068,10 +17068,10 @@
           "power_kw": 120.0,
           "rate_inr": 22.99,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 120.0,
           "effective_kw": 65.0
         }
@@ -17481,10 +17481,10 @@
           "type": "CCS-2 (60kW)",
           "power_kw": 60.0,
           "rate_inr": 18.49,
-          "status": "CHARGING",
-          "duration_display": "1s",
+          "status": "AVAILABLE",
+          "duration_display": "-",
           "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
+          "duration": "-",
           "kwh": "0.0 kWh",
           "allocated_kw": 60.0,
           "effective_kw": 45.0
@@ -17794,10 +17794,10 @@
           "type": "CCS-2 (30kW)",
           "power_kw": 30.0,
           "rate_inr": 23.5,
-          "status": "AVAILABLE",
-          "duration_display": "-",
+          "status": "CHARGING",
+          "duration_display": "1s",
           "est_kwh_display": "0.0 kWh",
-          "duration": "-",
+          "duration": "1s",
           "kwh": "0.0 kWh",
           "allocated_kw": 30.0,
           "effective_kw": 27.0
@@ -18888,10 +18888,10 @@
           "type": "CCS-2 (30kW)",
           "power_kw": 30.0,
           "rate_inr": 21.0,
-          "status": "CHARGING",
-          "duration_display": "1s",
+          "status": "AVAILABLE",
+          "duration_display": "-",
           "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
+          "duration": "-",
           "kwh": "0.0 kWh",
           "allocated_kw": 30.0,
           "effective_kw": 27.0
@@ -19005,7 +19005,7 @@
           "type": "CCS-2 (60kW)",
           "power_kw": 60.0,
           "rate_inr": 14.99,
-          "status": "FAULTED",
+          "status": "AVAILABLE",
           "duration_display": "-",
           "est_kwh_display": "0.0 kWh",
           "duration": "-",
@@ -19943,10 +19943,10 @@
           "power_kw": 480.0,
           "rate_inr": 21.0,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 240.0,
           "effective_kw": 65.0
         },
@@ -19962,10 +19962,10 @@
           "power_kw": 480.0,
           "rate_inr": 21.0,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 240.0,
           "effective_kw": 65.0
         },
@@ -20000,10 +20000,10 @@
           "power_kw": 480.0,
           "rate_inr": 21.0,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 480.0,
           "effective_kw": 65.0
         },
@@ -21624,10 +21624,10 @@
           "power_kw": 320.0,
           "rate_inr": 23.5,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "8.9 kWh",
+          "duration": "8m 10s",
+          "kwh": "8.9 kWh",
           "allocated_kw": 320.0,
           "effective_kw": 65.0
         },
@@ -22019,10 +22019,10 @@
           "power_kw": 60.0,
           "rate_inr": 21.0,
           "status": "CHARGING",
-          "duration_display": "1s",
-          "est_kwh_display": "0.0 kWh",
-          "duration": "1s",
-          "kwh": "0.0 kWh",
+          "duration_display": "8m 10s",
+          "est_kwh_display": "6.1 kWh",
+          "duration": "8m 10s",
+          "kwh": "6.1 kWh",
           "allocated_kw": 60.0,
           "effective_kw": 45.0
         }
@@ -25565,18 +25565,18 @@
         {
           "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P1",
           "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C1",
-          "charger_label": "ChargeZone CCS2 360.0kW Fast Unit",
-          "cabinet_kw": 360.0,
+          "charger_label": "ChargeZone CCS2 180.0kW Fast Unit",
+          "cabinet_kw": 180.0,
           "total_guns_on_cabinet": 2,
-          "label": "Gun 1 (CCS2 / 360.0kW)",
+          "label": "Gun 1 (CCS2 / 180.0kW)",
           "port_label": "Gun 1",
-          "type": "CCS2 (360.0kW)",
-          "power_kw": 360.0,
+          "type": "CCS2 (180.0kW)",
+          "power_kw": 180.0,
           "rate_inr": 23.0,
           "status": "AVAILABLE",
           "duration": "-",
           "kwh": "0.0 kWh",
-          "allocated_kw": 360.0,
+          "allocated_kw": 180.0,
           "effective_kw": 65.0,
           "duration_display": "-",
           "est_kwh_display": "0.0 kWh"
@@ -25584,18 +25584,18 @@
         {
           "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P2",
           "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C1",
-          "charger_label": "ChargeZone CCS2 360.0kW Fast Unit",
-          "cabinet_kw": 360.0,
+          "charger_label": "ChargeZone CCS2 180.0kW Fast Unit",
+          "cabinet_kw": 180.0,
           "total_guns_on_cabinet": 2,
-          "label": "Gun 2 (CCS2 / 360.0kW)",
+          "label": "Gun 2 (CCS2 / 180.0kW)",
           "port_label": "Gun 2",
-          "type": "CCS2 (360.0kW)",
-          "power_kw": 360.0,
+          "type": "CCS2 (180.0kW)",
+          "power_kw": 180.0,
           "rate_inr": 23.0,
           "status": "AVAILABLE",
           "duration": "-",
           "kwh": "0.0 kWh",
-          "allocated_kw": 360.0,
+          "allocated_kw": 180.0,
           "effective_kw": 65.0,
           "duration_display": "-",
           "est_kwh_display": "0.0 kWh"
@@ -25603,49 +25603,11 @@
         {
           "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P3",
           "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C2",
-          "charger_label": "ChargeZone CCS2 180.0kW Fast Unit",
-          "cabinet_kw": 180.0,
-          "total_guns_on_cabinet": 2,
-          "label": "Gun 3 (CCS2 / 180.0kW)",
-          "port_label": "Gun 3",
-          "type": "CCS2 (180.0kW)",
-          "power_kw": 180.0,
-          "rate_inr": 23.0,
-          "status": "AVAILABLE",
-          "duration": "-",
-          "kwh": "0.0 kWh",
-          "allocated_kw": 180.0,
-          "effective_kw": 65.0,
-          "duration_display": "-",
-          "est_kwh_display": "0.0 kWh"
-        },
-        {
-          "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P4",
-          "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C2",
-          "charger_label": "ChargeZone CCS2 180.0kW Fast Unit",
-          "cabinet_kw": 180.0,
-          "total_guns_on_cabinet": 2,
-          "label": "Gun 4 (CCS2 / 180.0kW)",
-          "port_label": "Gun 4",
-          "type": "CCS2 (180.0kW)",
-          "power_kw": 180.0,
-          "rate_inr": 23.0,
-          "status": "AVAILABLE",
-          "duration": "-",
-          "kwh": "0.0 kWh",
-          "allocated_kw": 180.0,
-          "effective_kw": 65.0,
-          "duration_display": "-",
-          "est_kwh_display": "0.0 kWh"
-        },
-        {
-          "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P5",
-          "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C3",
           "charger_label": "ChargeZone CCS2 90.0kW Fast Unit",
           "cabinet_kw": 90.0,
           "total_guns_on_cabinet": 1,
-          "label": "Gun 5 (CCS2 / 90.0kW)",
-          "port_label": "Gun 5",
+          "label": "Gun 3 (CCS2 / 90.0kW)",
+          "port_label": "Gun 3",
           "type": "CCS2 (90.0kW)",
           "power_kw": 90.0,
           "rate_inr": 23.0,
@@ -25654,6 +25616,44 @@
           "kwh": "0.0 kWh",
           "allocated_kw": 90.0,
           "effective_kw": 45.0,
+          "duration_display": "-",
+          "est_kwh_display": "0.0 kWh"
+        },
+        {
+          "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P4",
+          "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C3",
+          "charger_label": "ChargeZone CCS2 360.0kW Fast Unit",
+          "cabinet_kw": 360.0,
+          "total_guns_on_cabinet": 2,
+          "label": "Gun 4 (CCS2 / 360.0kW)",
+          "port_label": "Gun 4",
+          "type": "CCS2 (360.0kW)",
+          "power_kw": 360.0,
+          "rate_inr": 23.0,
+          "status": "FAULTED",
+          "duration": "-",
+          "kwh": "0.0 kWh",
+          "allocated_kw": 360.0,
+          "effective_kw": 65.0,
+          "duration_display": "-",
+          "est_kwh_display": "0.0 kWh"
+        },
+        {
+          "port_key": "CZ_65360b05c951b0a5ed2c5d5e_P5",
+          "charger_id": "CZ_65360b05c951b0a5ed2c5d5e_C3",
+          "charger_label": "ChargeZone CCS2 360.0kW Fast Unit",
+          "cabinet_kw": 360.0,
+          "total_guns_on_cabinet": 2,
+          "label": "Gun 5 (CCS2 / 360.0kW)",
+          "port_label": "Gun 5",
+          "type": "CCS2 (360.0kW)",
+          "power_kw": 360.0,
+          "rate_inr": 23.0,
+          "status": "FAULTED",
+          "duration": "-",
+          "kwh": "0.0 kWh",
+          "allocated_kw": 360.0,
+          "effective_kw": 65.0,
           "duration_display": "-",
           "est_kwh_display": "0.0 kWh"
         }
@@ -27109,7 +27109,7 @@
           "type": "Type-2 (6.0kW)",
           "power_kw": 6.0,
           "rate_inr": 23.0,
-          "status": "FAULTED",
+          "status": "AVAILABLE",
           "duration": "-",
           "kwh": "0.0 kWh",
           "allocated_kw": 6.0,
@@ -27128,7 +27128,7 @@
           "type": "Type-2 (6.0kW)",
           "power_kw": 6.0,
           "rate_inr": 23.0,
-          "status": "FAULTED",
+          "status": "AVAILABLE",
           "duration": "-",
           "kwh": "0.0 kWh",
           "allocated_kw": 6.0,
