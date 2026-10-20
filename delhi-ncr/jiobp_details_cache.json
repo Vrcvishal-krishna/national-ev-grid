@@ -1,0 +1,437 @@
+{
+  "80": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "363": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "88": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "420": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "859": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1952": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "331": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "378": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "146": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "40": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2062": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "669": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "25": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "453": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "57": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "87": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2273": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2063": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2645": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2037": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "933": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "335": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "858": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2681": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "521": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "367": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "114": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "824": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1454": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1949": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1957": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "637": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "677": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2064": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2146": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2677": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2736": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2537": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "66": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2965": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2966": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2947": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "829": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1302": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1953": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "362": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2534": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2739": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2061": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2008": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "82": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "841": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2823": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1959": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2684": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2676": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2822": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "115": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "832": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "174": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "676": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1983": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1958": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "384": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "823": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "330": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2636": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2590": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2661": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2793": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "497": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "803": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "215": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "110": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1712": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1982": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "1950": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2595": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2683": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "555": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2296": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "593": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2821": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "2824": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "634": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "805": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  },
+  "822": {
+    "flag": "F",
+    "message": "Error occurred while retrieving charge locations: Invalid operation on null data",
+    "result": null
+  }
+}
