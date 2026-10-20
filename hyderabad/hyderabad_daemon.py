@@ -234,6 +234,8 @@ def fetch_tatapower_stations():
                 lon = float(coords.get("longitude", 0))
             except Exception:
                 continue
+            city = (s.get("city") or "").strip().lower()
+            name = (s.get("station_name") or "").strip().lower()
             if not ((HYDERABAD_BBOX["min_lat"] <= lat <= HYDERABAD_BBOX["max_lat"] and HYDERABAD_BBOX["min_lon"] <= lon <= HYDERABAD_BBOX["max_lon"]) or any(c in city or c in name for c in ['hyderabad', 'secunderabad', 'gachibowli', 'madhapur', 'kondapur', 'hitec', 'shamshabad', 'banjara'])):
                 continue
 

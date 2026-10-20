@@ -235,6 +235,8 @@ def fetch_tatapower_stations():
             except Exception:
                 continue
             city = (s.get("city") or "").strip().lower()
+            name = (s.get("station_name") or "").strip().lower()
+            city = (s.get("city") or "").strip().lower()
             name = (s.get("station_name") or "").lower()
             if not ((BENGALURU_BBOX["min_lat"] <= lat <= BENGALURU_BBOX["max_lat"] and BENGALURU_BBOX["min_lon"] <= lon <= BENGALURU_BBOX["max_lon"]) or any(c in city or c in name for c in ['bengaluru', 'bangalore', 'whitefield', 'electronic city', 'koramangala', 'indiranagar', 'marathahalli', 'hebbal', 'yelahanka', 'bellandur', 'sarjapur'])):
                 continue

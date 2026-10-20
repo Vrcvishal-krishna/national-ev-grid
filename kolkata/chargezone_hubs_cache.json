@@ -1191,6 +1191,66 @@
       "latitude": 18.8944321,
       "longitude": 72.9758226,
       "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_67e58b542a6dd3b44cade42b",
+      "cz_id": "67e58b542a6dd3b44cade42b",
+      "name": "Harekrishna Petroleum",
+      "brand": "ChargeZone",
+      "address": "AAMANE ON PADGA KALYAN ROAD,SH46 TAL BHIWANDI",
+      "latitude": 19.319267,
+      "longitude": 73.159816,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6a5ca14539308857d2bc5de5",
+      "cz_id": "6a5ca14539308857d2bc5de5",
+      "name": "Power Hub EV Charging Station",
+      "brand": "ChargeZone",
+      "address": "shakti chowk, Beturkar Pada Kalyan west.",
+      "latitude": 19.2483206,
+      "longitude": 73.1304074,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_67e58b542a6dd3b44cade470",
+      "cz_id": "67e58b542a6dd3b44cade470",
+      "name": "Balaji Automobiles",
+      "brand": "ChargeZone",
+      "address": "MIDC Truck Terminal, Patalganga,Taluka Panvel, Rasayani, Raigad",
+      "latitude": 18.8869686,
+      "longitude": 73.1723063,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_6aa585bc5888a23c785fdc19",
+      "cz_id": "6aa585bc5888a23c785fdc19",
+      "name": "LEVICON09",
+      "brand": "ChargeZone",
+      "address": "Cluster_panvel_139, Loknete D B Patil Nagar, HOC Colony, Panvel, Maharashtra 410206, India",
+      "latitude": 18.9926634,
+      "longitude": 73.1058866,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_67e58b542a6dd3b44cade623",
+      "cz_id": "67e58b542a6dd3b44cade623",
+      "name": "Shree Kedarnath Petroleum",
+      "brand": "ChargeZone",
+      "address": " Panveldist.Raigadmaharashtra,Village Kiravali, Raigad Pin-410210",
+      "latitude": 19.1091987,
+      "longitude": 73.0658871,
+      "is_chargezone_direct": true
+    },
+    {
+      "station_id": "CZ_67e58b5a2a6dd3b44cae2244",
+      "cz_id": "67e58b5a2a6dd3b44cae2244",
+      "name": "Sri Balaji Petroleum",
+      "brand": "ChargeZone",
+      "address": "POYANJE POST BARVAL TALUKA PANVEL NH - 4 DIST RAIGAD",
+      "latitude": 18.93839,
+      "longitude": 73.189503,
+      "is_chargezone_direct": true
     }
   ],
   "kolkata": [
@@ -1215,5 +1275,5 @@
       "is_chargezone_direct": true
     }
   ],
-  "discovered_at": 1792518281.783283
+  "discovered_at": 1792520401.807408
 }
