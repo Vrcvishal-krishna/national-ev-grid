@@ -322,7 +322,7 @@ def poll_network_live(station_list):
 
     try:
         from jiobp_fetcher import fetch_jiobp_stations
-        jio_stations = fetch_jiobp_stations("bengaluru", is_telemetry_running=True)
+        jio_stations = fetch_jiobp_stations("hyderabad", is_telemetry_running=True)
         if jio_stations:
             for j_st in jio_stations:
                 LAST_KNOWN_STATIONS[j_st["id"]] = j_st
@@ -331,7 +331,7 @@ def poll_network_live(station_list):
 
     try:
         from chargezone_fetcher import fetch_chargezone_stations
-        cz_stations = fetch_chargezone_stations("bengaluru", is_telemetry_running=True)
+        cz_stations = fetch_chargezone_stations("hyderabad", is_telemetry_running=True)
         if cz_stations:
             for c_st in cz_stations:
                 LAST_KNOWN_STATIONS[c_st["id"]] = c_st

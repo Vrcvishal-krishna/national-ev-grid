@@ -140,6 +140,21 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         elif city_lower == "mumbai":
             if (18.65 <= lat <= 19.55 and 72.65 <= lng <= 73.35) or any(k in combined for k in ['mumbai', 'navi mumbai', 'thane', 'vashi', 'kalyan', 'bhayandar', 'panvel', 'ulhasnagar', 'dombivli', 'palghar', 'vasai', 'virar', 'raigad', 'khalapur', 'khopoli', 'nerul', 'belapur', 'airoli', 'chembur', 'andheri', 'bandra', 'borivali', 'goregaon', 'malad', 'kurla', 'dadar', 'worli', 'bkc']):
                 target_hubs.append(s)
+        elif city_lower in ["delhi", "delhi-ncr"]:
+            if (28.20 <= lat <= 28.95 and 76.80 <= lng <= 77.60) or any(k in combined for k in ['delhi', 'new delhi', 'gurugram', 'gurgaon', 'noida', 'greater noida', 'faridabad', 'ghaziabad', 'manesar', 'aerocity', 'saket', 'dwarka', 'rohini', 'connaught', 'nehru place', 'okhla']):
+                target_hubs.append(s)
+        elif city_lower == "bengaluru":
+            if (12.75 <= lat <= 13.25 and 77.40 <= lng <= 77.85) or any(k in combined for k in ['bengaluru', 'bangalore', 'whitefield', 'electronic city', 'koramangala', 'indiranagar', 'marathahalli', 'hebbal', 'yelahanka', 'bellandur', 'sarjapur', 'hsr layout', 'jayanagar', 'peenya']):
+                target_hubs.append(s)
+        elif city_lower == "hyderabad":
+            if (17.15 <= lat <= 17.65 and 78.20 <= lng <= 78.70) or any(k in combined for k in ['hyderabad', 'secunderabad', 'gachibowli', 'madhapur', 'kondapur', 'hitec', 'shamshabad', 'banjara', 'jubilee', 'kukatpally', 'begumpet', 'financial district', 'miyapur']):
+                target_hubs.append(s)
+        elif city_lower == "kolkata":
+            if (22.35 <= lat <= 22.80 and 88.20 <= lng <= 88.55) or any(k in combined for k in ['kolkata', 'howrah', 'salt lake', 'new town', 'rajarhat', 'dum dum', 'bally', 'alipore', 'park street', 'esplanade']):
+                target_hubs.append(s)
+        elif city_lower == "ahmedabad":
+            if (22.85 <= lat <= 23.25 and 72.40 <= lng <= 72.75) or any(k in combined for k in ['ahmedabad', 'gandhinagar', 'gift city', 'sanand', 'bopal', 'sg highway', 'prahlad nagar', 'navrangpura', 'vastrapur']):
+                target_hubs.append(s)
 
     # Load cached hub model definitions
     cache = {}
