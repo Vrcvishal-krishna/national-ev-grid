@@ -187,6 +187,11 @@ def run_city_daemon(city_config):
     cdir = os.path.join(BASE_DIR, city_config["dir"])
     daemon_path = os.path.join(cdir, city_config["daemon_file"])
     
+    if cdir not in sys.path:
+        sys.path.insert(0, cdir)
+    if BASE_DIR not in sys.path:
+        sys.path.insert(0, BASE_DIR)
+
     if not os.path.exists(daemon_path):
         print(f"[{cid.upper()}] Daemon file not found: {daemon_path}", file=sys.stderr)
         return
