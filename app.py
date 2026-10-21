@@ -120,7 +120,18 @@ CITY_BASE_STATS = {
     "hyderabad": {"hubs": 454, "capacity_mw": 61.2}
 }
 
+LATEST_METRICS_CACHE = {}
+
 def get_city_metrics(city_id: str):
+    if city_id in LATEST_METRICS_CACHE:
+        cached = LATEST_METRICS_CACHE[city_id]
+        m = cached.get("metrics", {})
+        hubs = cached.get("hubs", 0)
+        guns = m.get("total_guns", 0)
+        base = CITY_BASE_STATS.get(city_id, {"hubs": hubs, "capacity_mw": 0.0})
+        capacity_mw = base.get("capacity_mw", (guns * 55.0) / 1000.0)
+        return m, hubs, capacity_mw
+
     c = CITY_MAP.get(city_id)
     if not c:
         return {}, 0, 0.0
@@ -133,6 +144,7 @@ def get_city_metrics(city_id: str):
                 d = json.load(f)
                 metrics = d.get("metrics", {})
                 hubs = len(d.get("stations", []))
+                LATEST_METRICS_CACHE[city_id] = {"metrics": metrics, "hubs": hubs}
         except Exception:
             pass
     guns = metrics.get("total_guns", 0)
@@ -181,8 +193,11 @@ def get_national_metrics():
         "cities": city_statuses
     }
 
-def run_city_daemon(city_config):
+def run_city_daemon(city_config, delay=0):
     """Background worker for a city. Strictly zero standby when running=False."""
+    if delay > 0:
+        time.sleep(delay)
+
     cid = city_config["id"]
     cdir = os.path.join(BASE_DIR, city_config["dir"])
     daemon_path = os.path.join(cdir, city_config["daemon_file"])
@@ -216,6 +231,7 @@ def run_city_daemon(city_config):
         print(f"[{cid.upper()}] Init error: {e}", file=sys.stderr)
         return
 
+    import gc
     while True:
         if not get_city_state(cid):
             time.sleep(2)
@@ -223,10 +239,13 @@ def run_city_daemon(city_config):
         try:
             p = mod.poll_network_live(stations_list)
             m = p["metrics"]
+            LATEST_METRICS_CACHE[cid] = {"metrics": m, "hubs": len(p["stations"])}
             print(f"[{cid.upper()}] {p.get('display_time')} | {len(p['stations'])} hubs | {m['active_charging']} ACTIVE")
         except Exception as e:
             print(f"[{cid.upper()}] Poller error: {e}", file=sys.stderr)
-        time.sleep(20)
+        finally:
+            gc.collect()
+        time.sleep(30)
 
 GATEWAY_HTML = """<!DOCTYPE html>
 <html lang="en">
@@ -707,9 +726,9 @@ def main():
     print(f"NATIONAL EV GRID - UNIFIED CLOUD ENGINE (PORT {port})")
     print("=" * 65)
 
-    # Launch background daemons for each city
-    for c in CITIES:
-        t = threading.Thread(target=run_city_daemon, args=(c,), daemon=True)
+    # Launch background daemons for each city with staggered start
+    for i, c in enumerate(CITIES):
+        t = threading.Thread(target=run_city_daemon, args=(c, i * 4), daemon=True)
         t.start()
 
     server = ThreadingHTTPServer((host, port), UnifiedRouterHandler)

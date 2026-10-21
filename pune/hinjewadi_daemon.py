@@ -1,3 +1,4 @@
+import gc
 #!/usr/bin/env python3
 """
 City-Wide 24/7 EV Telemetry Daemon for Pune & Pimpri-Chinchwad (PCMC)
@@ -73,6 +74,7 @@ def init_db():
     """)
     conn.commit()
     conn.close()
+    gc.collect()
 
 def calculate_effective_kw(cabinet_kw, active_on_cabinet, port_type):
     """
@@ -461,7 +463,7 @@ def poll_network_live(station_list):
 
     # Parallel fetch across all Statiq/hosted stations using thread pool
     fetched = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         results = list(executor.map(fetch_single_station_telemetry, station_list))
         for res in results:
             if res and res.get("connectors"):
@@ -707,6 +709,7 @@ def poll_network_live(station_list):
 
     conn.commit()
     conn.close()
+    gc.collect()
 
     payload = {
         "timestamp": now_dt.isoformat(),
@@ -741,7 +744,7 @@ def poll_network_live(station_list):
     }
 
     with open(TELEMETRY_JSON, "w") as f:
-        json.dump(payload, f, indent=2)
+        json.dump(payload, f, separators=(",", ":"))
 
     return payload
 
