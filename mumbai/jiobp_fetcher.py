@@ -189,6 +189,9 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         if loc_id == 2802:
             name = "Jio-bp pulse - TATA.ev Megacharger (375kW Ultra-Fast) - Fountain Hotel, Ghodbunder Road"
             addr = "Fountain Hotel Junction, Ghodbunder Road (NH 48), Versave, Mira-Bhayandar, Thane 401107"
+        elif loc_id == 2772:
+            name = "Jio-bp pulse Ultra-Fast Hub (360-375kW) - Maruti True Value, Owale, Ghodbunder Road"
+            addr = "Near Maruti True Value, Pankhada Rd, Owale, Ghodbunder Road, Thane West 400607"
         elif loc_id == 2605:
             addr = f"{addr}, Ghodbunder Road / Western Express Hwy Junction, Thane"
 
