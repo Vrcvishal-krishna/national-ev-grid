@@ -186,6 +186,12 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         loc_id = h_data["locId"]
         name = (h_data.get("locName") or f"Jio-bp Pulse Hub {loc_id}").strip()
         addr = (h_data.get("locAddress") or f"Jio-bp Station, {city.title()}").strip()
+        if loc_id == 2802:
+            name = "Jio-bp pulse - TATA.ev Megacharger (375kW Ultra-Fast) - Fountain Hotel, Ghodbunder Road"
+            addr = "Fountain Hotel Junction, Ghodbunder Road (NH 48), Versave, Mira-Bhayandar, Thane 401107"
+        elif loc_id == 2605:
+            addr = f"{addr}, Ghodbunder Road / Western Express Hwy Junction, Thane"
+
         lat = float(h_data.get("latitude") or 0)
         lng = float(h_data.get("longitude") or 0)
         total_guns = int(h_data.get("totalCount") or 0)
@@ -203,8 +209,8 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         if models:
             for m in models:
                 m_name = m.get("modelName", "CCS")
-                op_val = m.get("opValue", "60KW")
-                power_kw = parse_kw(op_val)
+                op_val = "375KW" if loc_id == 2802 else m.get("opValue", "60KW")
+                power_kw = 375.0 if loc_id == 2802 else parse_kw(op_val)
                 m_total = int(m.get("totalCount") or 1)
                 for _ in range(m_total):
                     port_key = f"JIO_{loc_id}_P{gun_idx}"
