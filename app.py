@@ -621,6 +621,29 @@ class UnifiedRouterHandler(SimpleHTTPRequestHandler):
             return
 
         # National API endpoints
+        if path == '/api/debug_mumbai_fetch':
+            res = {}
+            try:
+                sys.path.insert(0, os.path.join(BASE_DIR, "mumbai"))
+                import mumbai_daemon
+                t = mumbai_daemon.fetch_tatapower_stations()
+                res["tata"] = {"count": len(t), "charging": sum(1 for s in t for c in s.get("connectors", []) if c.get("status") == "CHARGING")}
+            except Exception as e:
+                res["tata"] = {"error": str(e)}
+
+            try:
+                from jiobp_fetcher import fetch_jiobp_stations
+                j = fetch_jiobp_stations("mumbai", is_telemetry_running=True)
+                res["jio"] = {"count": len(j) if j else 0, "charging": sum(1 for s in j for c in s.get("connectors", []) if c.get("status") == "CHARGING") if j else 0}
+            except Exception as e:
+                res["jio"] = {"error": str(e)}
+
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps(res).encode('utf-8'))
+            return
+
         if path == '/api/national_metrics':
             data = get_national_metrics()
             self.send_response(200)
