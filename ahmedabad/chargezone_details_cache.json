@@ -29874,5 +29874,668 @@
     },
     "session_level_offer": null,
     "show_chargeclub_banner_by_station": true
+  },
+  "6ad9f832e3ec0687a2060f43": {
+    "_id": "6ad9f832e3ec0687a2060f43",
+    "name": "GJ | Ahmedabad | Aslali ( Private )",
+    "description": "",
+    "countryCode": "91",
+    "amenity": [],
+    "photos": [],
+    "avg_rating": 0,
+    "rating_count": 0,
+    "total_chargers": 0,
+    "energy_consumed": 0,
+    "chargers_in_use": 0,
+    "average_charging_time": 0,
+    "location": {
+      "lng": 72.574347,
+      "lat": 22.92672
+    },
+    "geo_location": {
+      "type": "Point",
+      "coordinates": [
+        72.574347,
+        22.92672
+      ]
+    },
+    "tenant": "62987db08f88870e6524d06a",
+    "region": "",
+    "zone": "",
+    "regional_manager": "",
+    "contact_person": null,
+    "access_type": "Private",
+    "operational_status": "Active",
+    "country": "India",
+    "state": "Gujarat",
+    "city": "Ahmedabad",
+    "city_tier": "",
+    "area": "Aslali",
+    "address": "WHHH+448 Ahmedabad, Gujarat, 382427",
+    "pincode": 382427,
+    "availableToUsers": [],
+    "show_on_mobile_app": false,
+    "show_on_cz_app": true,
+    "timing_type": "daily",
+    "working_hours": [
+      {
+        "from": "00:00",
+        "to": "23:59",
+        "_id": "6ad9f832e3ec0687a2060f44"
+      }
+    ],
+    "status": "Available",
+    "tags": [
+      "66a133f069ab4ac13a546c93"
+    ],
+    "settings": {
+      "notification": [
+        "Email",
+        "SMS"
+      ]
+    },
+    "is_active": true,
+    "is_enabled": true,
+    "down_start_time": null,
+    "down_stop_time": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "contact_country_code": 91,
+    "contact_address": null,
+    "is_external_station": false,
+    "show_to_ocpi_partners": false,
+    "does_support_home_charging": false,
+    "home_charging_code": "",
+    "star_ratings": {
+      "5_star": {
+        "count": 0,
+        "percentage": 0
+      },
+      "4_star": {
+        "count": 0,
+        "percentage": 0
+      },
+      "3_star": {
+        "count": 0,
+        "percentage": 0
+      },
+      "2_star": {
+        "count": 0,
+        "percentage": 0
+      },
+      "1_star": {
+        "count": 0,
+        "percentage": 0
+      }
+    },
+    "is_deleted": false,
+    "is_chargecoin_disabled": false,
+    "station_id": "LGJ0710",
+    "wbsElement": "D-EAAS/AMC-68",
+    "businessPlace": "GJ01",
+    "glaCreditAccount": "400004",
+    "station_power_limit_activate": false,
+    "operation_type": "Unmanned",
+    "skip_booking": false,
+    "external_location_facilities": [],
+    "ownership_type": "672dfc1c483f41365ad675c5",
+    "co_capex_brand": null,
+    "muralArt": null,
+    "is_shwa_station": false,
+    "banners": [],
+    "reference_id": "CB97B8AB",
+    "external_location_images": [],
+    "createdAt": "2026-10-22T11:49:06.476Z",
+    "updatedAt": "2026-10-23T11:40:59.470Z",
+    "__v": 1,
+    "maintenance_remarks": null,
+    "maintenance_type": null,
+    "lastStationUpdatedAt": "2026-10-23T11:40:59.469Z",
+    "chargers": [
+      {
+        "_id": "6926d1ed72fcdbed6fb729e0",
+        "charger_id": "GJ0136",
+        "oem": {
+          "_id": "68d0f19865819622e59294f1",
+          "name": "Exicom 240kW (Dual CCS2) Gen 2.0",
+          "vendor": "62b97ad31d6fa4c361230080",
+          "input_voltage": "415",
+          "power_factor": "0.95",
+          "efficiency": "94",
+          "input_frequency": "50",
+          "display": "Integrated - 10\" capacitive touch screen TFT LCD",
+          "push_button": "Emergency Stop",
+          "dimension_w_h_d": "1850 * 650 * 520",
+          "image": "https://imagepath.png",
+          "plugs": [
+            {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "A",
+              "code": "A",
+              "current": "250",
+              "rating": "120kW",
+              "number": "1",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d8"
+            },
+            {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "B",
+              "code": "B",
+              "current": "250",
+              "rating": "120kW",
+              "number": "2",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d9"
+            }
+          ],
+          "skip_preparing_state": false,
+          "charger_capacity": "240",
+          "is_auto_stop_enabled": true,
+          "deleted": false,
+          "createdAt": "2025-09-22T06:50:00.689Z",
+          "updatedAt": "2026-06-12T10:28:44.665Z",
+          "__v": 6
+        },
+        "tarrif": "6958bd2a7e3511154ff18d8b",
+        "times_sent_trigger": 0,
+        "plugs": [
+          {
+            "status": "Preparing",
+            "connector_id": 1,
+            "external_tarrif": [],
+            "name": "A",
+            "external_max_voltage": 0,
+            "external_max_amperage": 0,
+            "external_max_electric_power": 0,
+            "_id": "6a1d471cf8d6f42a52cffcd1",
+            "cpoErrorCode": "",
+            "errorCode": "NoError",
+            "details": {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "A",
+              "code": "A",
+              "current": "250",
+              "rating": "120kW",
+              "number": "1",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d8"
+            },
+            "is_compatible": true,
+            "display_status": "Preparing",
+            "reservation": null,
+            "available_until": null,
+            "available_until_message": null,
+            "tarrif": {
+              "default_price_per_unit": 21
+            },
+            "show_notify_button": false,
+            "notify_me_subscribed": false
+          },
+          {
+            "status": "Available",
+            "connector_id": 2,
+            "external_tarrif": [],
+            "name": "B",
+            "external_max_voltage": 0,
+            "external_max_amperage": 0,
+            "external_max_electric_power": 0,
+            "_id": "6a1d471cf8d6f42a52cffcd2",
+            "cpoErrorCode": "",
+            "errorCode": "NoError",
+            "details": {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "B",
+              "code": "B",
+              "current": "250",
+              "rating": "120kW",
+              "number": "2",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d9"
+            },
+            "is_compatible": true,
+            "display_status": "Available",
+            "reservation": null,
+            "available_until": null,
+            "available_until_message": null,
+            "tarrif": {
+              "default_price_per_unit": 21
+            },
+            "show_notify_button": false,
+            "notify_me_subscribed": false
+          }
+        ],
+        "is_active": true,
+        "is_enabled": true,
+        "otp_verification": true,
+        "rfid_verification": true,
+        "tenant": "62987db08f88870e6524d06a",
+        "charging_station": "6ad9f832e3ec0687a2060f43",
+        "operational_status": "Active",
+        "timing_type": "custom",
+        "parking_restrictions": false,
+        "charging_speed": "6298f80101a9d276098db21c",
+        "settings": {
+          "current_firmware": "43.14.08.00_2.1_K1_42.19.10.00_040006_040006"
+        },
+        "charger_status": "Available",
+        "is_errored": false,
+        "is_external_charger": false,
+        "is_ping_pong_supported": true,
+        "is_duplicate_transaction_mode_supported": true,
+        "is_superfast_mode_supported": false,
+        "auto_charge_supported": true,
+        "is_deleted": false,
+        "is_chargecoin_disabled": false,
+        "ownership_type": "COCO",
+        "wss_supported": false,
+        "does_support_load_balancing": false,
+        "custom_rating": null,
+        "timings": [],
+        "external_evse_images": [],
+        "createdAt": "2025-11-26T10:09:49.574Z",
+        "updatedAt": "2026-10-23T12:30:21.846Z",
+        "__v": 3,
+        "last_down_time_calculatedv2": "2026-10-23T02:39:43.507Z",
+        "banners": [],
+        "connectivity": {
+          "connection_type": [],
+          "sim": []
+        },
+        "is_decommissioned": false,
+        "comments": "",
+        "cooldown_time": "",
+        "description": "",
+        "load_limit": "",
+        "maintenance_remarks": null,
+        "maintenance_type": null,
+        "serial_number": "D32610585770010",
+        "decommissioned_on": null,
+        "installation_date": "2026-08-04T12:16:04.669Z",
+        "lastStatusUpdatedAt": "2026-10-23T11:40:59.051Z",
+        "old_status": "Available",
+        "tentative_evcc_id_date": "2026-10-22T19:19:46.343Z",
+        "go_live_date": "2026-09-15T13:43:18.072Z",
+        "id": "6926d1ed72fcdbed6fb729e0"
+      },
+      {
+        "_id": "6926d1f672fcdbed6fb7574b",
+        "charger_id": "GJ0137",
+        "oem": {
+          "_id": "68d0f19865819622e59294f1",
+          "name": "Exicom 240kW (Dual CCS2) Gen 2.0",
+          "vendor": "62b97ad31d6fa4c361230080",
+          "input_voltage": "415",
+          "power_factor": "0.95",
+          "efficiency": "94",
+          "input_frequency": "50",
+          "display": "Integrated - 10\" capacitive touch screen TFT LCD",
+          "push_button": "Emergency Stop",
+          "dimension_w_h_d": "1850 * 650 * 520",
+          "image": "https://imagepath.png",
+          "plugs": [
+            {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "A",
+              "code": "A",
+              "current": "250",
+              "rating": "120kW",
+              "number": "1",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d8"
+            },
+            {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "B",
+              "code": "B",
+              "current": "250",
+              "rating": "120kW",
+              "number": "2",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d9"
+            }
+          ],
+          "skip_preparing_state": false,
+          "charger_capacity": "240",
+          "is_auto_stop_enabled": true,
+          "deleted": false,
+          "createdAt": "2025-09-22T06:50:00.689Z",
+          "updatedAt": "2026-06-12T10:28:44.665Z",
+          "__v": 6
+        },
+        "tarrif": "6958bd2a7e3511154ff18d8b",
+        "times_sent_trigger": 0,
+        "plugs": [
+          {
+            "status": "In Use",
+            "connector_id": 1,
+            "external_tarrif": [],
+            "name": "A",
+            "external_max_voltage": 0,
+            "external_max_amperage": 0,
+            "external_max_electric_power": 0,
+            "_id": "6a1d473b6da2ab7cddaf41e6",
+            "cpoErrorCode": "",
+            "errorCode": "NoError",
+            "details": {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "A",
+              "code": "A",
+              "current": "250",
+              "rating": "120kW",
+              "number": "1",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d8"
+            },
+            "is_compatible": true,
+            "soc": {
+              "start": 42,
+              "stop": 42
+            },
+            "time_remaining": null,
+            "display_status": "In Use",
+            "reservation": null,
+            "available_until": null,
+            "available_until_message": null,
+            "tarrif": {
+              "default_price_per_unit": 21
+            },
+            "show_notify_button": true,
+            "notify_me_subscribed": false
+          },
+          {
+            "status": "Preparing",
+            "connector_id": 2,
+            "external_tarrif": [],
+            "name": "B",
+            "external_max_voltage": 0,
+            "external_max_amperage": 0,
+            "external_max_electric_power": 0,
+            "_id": "6a1d473b6da2ab7cddaf41e7",
+            "cpoErrorCode": "",
+            "errorCode": "NoError",
+            "details": {
+              "type": "DC",
+              "connector_type": {
+                "_id": "62a9b1ef49a4baec23c650f1",
+                "name": "CCS2",
+                "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png",
+                "connector_mode": "DC",
+                "connector_standard": "IEC_62196_T2_COMBO",
+                "createdAt": "2023-06-15T10:18:23.476Z",
+                "updatedAt": "2026-07-09T06:17:47.110Z",
+                "__v": 2,
+                "supported_connectors": [
+                  "68145b46742bb0d86b6f2386",
+                  "6298f7f701a9d272598db213"
+                ]
+              },
+              "charge_speed": {
+                "_id": "6298f80101a9d276098db21c",
+                "name": "Fast",
+                "createdAt": "2022-06-02T17:48:49.436Z",
+                "updatedAt": "2022-06-02T17:48:49.436Z",
+                "__v": 0
+              },
+              "name": "B",
+              "code": "B",
+              "current": "250",
+              "rating": "120kW",
+              "number": "2",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": "1000",
+              "_id": "6a2bdf5ca50e53e52c39d7d9"
+            },
+            "is_compatible": true,
+            "display_status": "Preparing",
+            "reservation": null,
+            "available_until": null,
+            "available_until_message": null,
+            "tarrif": {
+              "default_price_per_unit": 21
+            },
+            "show_notify_button": false,
+            "notify_me_subscribed": false
+          }
+        ],
+        "is_active": true,
+        "is_enabled": true,
+        "otp_verification": true,
+        "rfid_verification": true,
+        "tenant": "62987db08f88870e6524d06a",
+        "charging_station": "6ad9f832e3ec0687a2060f43",
+        "operational_status": "Active",
+        "timing_type": "custom",
+        "parking_restrictions": false,
+        "charging_speed": "6298f80101a9d276098db21c",
+        "settings": {
+          "current_firmware": "43.14.08.00_--_K1_42.19.08.00_040006_040006"
+        },
+        "charger_status": "Available",
+        "is_errored": false,
+        "is_external_charger": false,
+        "is_ping_pong_supported": true,
+        "is_duplicate_transaction_mode_supported": true,
+        "is_superfast_mode_supported": false,
+        "auto_charge_supported": true,
+        "is_deleted": false,
+        "is_chargecoin_disabled": false,
+        "ownership_type": "COCO",
+        "wss_supported": false,
+        "does_support_load_balancing": false,
+        "custom_rating": null,
+        "timings": [],
+        "external_evse_images": [],
+        "createdAt": "2025-11-26T10:09:58.351Z",
+        "updatedAt": "2026-10-23T12:29:55.148Z",
+        "__v": 3,
+        "last_down_time_calculatedv2": "2026-10-23T02:39:43.590Z",
+        "banners": [],
+        "connectivity": {
+          "connection_type": [],
+          "sim": []
+        },
+        "is_decommissioned": false,
+        "comments": "",
+        "cooldown_time": "",
+        "description": "",
+        "load_limit": "",
+        "maintenance_remarks": null,
+        "maintenance_type": null,
+        "serial_number": "D32610585770011",
+        "lastStatusUpdatedAt": "2026-10-23T12:25:12.000Z",
+        "old_status": "Available",
+        "decommissioned_on": null,
+        "installation_date": "2026-08-04T12:15:25.406Z",
+        "tentative_evcc_id_date": "2026-10-22T11:07:16.740Z",
+        "id": "6926d1f672fcdbed6fb7574b"
+      }
+    ],
+    "is_chargebot_enabled": false,
+    "default_plug": null,
+    "default_plug_error": null,
+    "isFavorite": false,
+    "is_tata_motors": false,
+    "id": "6ad9f832e3ec0687a2060f43",
+    "chips": {
+      "id": "6ad9f832e3ec0687a2060f43",
+      "auto_charge_supported": true,
+      "rfid_supported": true,
+      "currentType": "DC",
+      "connectorTypes": [
+        {
+          "name": "CCS2",
+          "icon": "https://storage.googleapis.com/chargezone_prod/20260709061745Untitled_design-removebg-preview.png"
+        }
+      ],
+      "chargingkWH": [
+        "Upto 240kW"
+      ]
+    },
+    "session_level_offer": null,
+    "show_chargeclub_banner_by_station": true
   }
 }

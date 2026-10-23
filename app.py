@@ -1,3 +1,5 @@
+import gzip
+import hashlib
 #!/usr/bin/env python3
 """
 National EV Grid Command Center - Unified Multi-City Service
@@ -700,10 +702,25 @@ class UnifiedRouterHandler(SimpleHTTPRequestHandler):
                     with open(target_file, 'rb') as f:
                         body = f.read()
 
+                    etag = f'"{hashlib.md5(body).hexdigest()[:16]}"'
+                    client_etag = self.headers.get('If-None-Match')
+
+                    if client_etag and client_etag.strip() == etag:
+                        self.send_response(304)
+                        self.end_headers()
+                        return
+
+                    use_gzip = 'gzip' in self.headers.get('Accept-Encoding', '') and len(body) > 1024
+                    if use_gzip:
+                        body = gzip.compress(body, compresslevel=6)
+
                     self.send_response(200)
                     self.send_header('Content-Type', mime)
+                    if use_gzip:
+                        self.send_header('Content-Encoding', 'gzip')
                     self.send_header('Content-Length', str(len(body)))
-                    self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+                    self.send_header('ETag', etag)
+                    self.send_header('Cache-Control', 'no-cache, public')
                     self.end_headers()
                     self.wfile.write(body)
                     return

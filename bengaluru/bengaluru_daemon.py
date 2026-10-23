@@ -102,10 +102,12 @@ def format_duration(seconds):
 
 def calculate_session_energy(port_type, effective_kw, duration_seconds):
     dur_min = duration_seconds / 60.0
-    p_lower = port_type.lower()
-    if "ac" in p_lower or "type-2" in p_lower:
-        kw = min(effective_kw, 7.2) * 0.92
-        return round(kw * (dur_min / 60.0), 2)
+    p_lower = str(port_type).lower()
+    is_dc = "ccs" in p_lower or "dc" in p_lower or effective_kw >= 25.0
+
+    if not is_dc:
+        raw_kwh = min(effective_kw, 7.2) * 0.92 * (dur_min / 60.0)
+        return min(round(raw_kwh, 2), 45.0)
 
     # Fast DC CCS-2 / CHAdeMO 3-Stage Dynamic BMS Tapering
     if dur_min <= 35:
@@ -381,8 +383,12 @@ def poll_network_live(station_list):
                 prev_status, last_changed = row
                 if status != prev_status:
                     if prev_status == "CHARGING" and status == "AVAILABLE":
-                        dur_min = (now_epoch - last_changed) / 60.0
-                        kwh = calculate_session_energy(c.get("type", ""), effective_kw, now_epoch - last_changed)
+                        is_dc = "ccs" in str(c.get("type", "")).lower() or "dc" in str(c.get("type", "")).lower() or effective_kw >= 25.0
+                        max_session_sec = 5400 if is_dc else 14400
+                        raw_elapsed = max(1, now_epoch - last_changed)
+                        dur_sec = min(raw_elapsed, max_session_sec)
+                        dur_min = dur_sec / 60.0
+                        kwh = calculate_session_energy(c.get("type", ""), effective_kw, dur_sec)
                         cur.execute("""
                             INSERT INTO completed_sessions (port_key, station_name, start_time, end_time, duration_minutes, est_kwh)
                             VALUES (?, ?, ?, ?, ?, ?)
@@ -407,6 +413,21 @@ def poll_network_live(station_list):
                 r = cur.fetchone()
                 session_start = r[0] if r else now_epoch
                 elapsed_sec = max(1, now_epoch - session_start)
+
+                is_dc = "ccs" in str(c.get("type", "")).lower() or "dc" in str(c.get("type", "")).lower() or effective_kw >= 25.0
+                max_session_sec = 5400 if is_dc else 14400
+
+                if elapsed_sec > max_session_sec:
+                    dur_min = max_session_sec / 60.0
+                    rollover_kwh = calculate_session_energy(c.get("type", ""), effective_kw, max_session_sec)
+                    session_end_dt = datetime.datetime.fromtimestamp(session_start + max_session_sec)
+                    cur.execute("""
+                        INSERT INTO completed_sessions (port_key, station_name, start_time, end_time, duration_minutes, est_kwh)
+                        VALUES (?, ?, ?, ?, ?, ?)
+                    """, (pkey, st["name"], datetime.datetime.fromtimestamp(session_start).isoformat(), session_end_dt.isoformat(), dur_min, rollover_kwh))
+                    session_start = now_epoch
+                    cur.execute("UPDATE port_state SET last_changed_ts = ? WHERE port_key = ?", (now_epoch, pkey))
+                    elapsed_sec = 1
 
                 c["duration_display"] = format_duration(elapsed_sec)
                 live_kwh = calculate_session_energy(c.get("type", ""), effective_kw, elapsed_sec)

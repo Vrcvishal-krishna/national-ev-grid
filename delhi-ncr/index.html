@@ -592,7 +592,7 @@
       <div class="stat-sub" id="sub-active-charging">Syncing City Grid...</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Energy Dispensed (24H)</div>
+      <div class="stat-label">Energy Dispensed (Rolling 24H)</div>
       <div class="stat-value" id="val-energy">--</div>
       <div class="stat-sub" id="sub-energy">Total Dispensed Today (City Engine)</div>
     </div>
@@ -963,9 +963,9 @@
       const rollingKwh = m.total_energy_kwh_24h || 0;
       const lifeSessions = m.lifetime_completed_sessions || m.completed_sessions_24h || 0;
 
-      document.getElementById("val-energy").innerText = lifeKwh.toLocaleString() + " kWh";
+      document.getElementById("val-energy").innerText = rollingKwh.toLocaleString() + " kWh";
       document.getElementById("val-energy").style.color = "#00ff88";
-      document.getElementById("sub-energy").innerHTML = `<span style="color:#ffffff; font-weight:700;">${lifeSessions} Sessions Total</span> &bull; ${rollingKwh.toLocaleString()} kWh (Rolling 24H)`;
+      document.getElementById("sub-energy").innerHTML = `<span style="color:#ffffff; font-weight:700;">${lifeSessions} Sessions Completed</span> &bull; ${lifeKwh.toLocaleString()} kWh (Lifetime Total)`;
 
       const avgDur = m.lifetime_avg_duration_min || m.avg_session_duration_min;
       if (avgDur !== null && avgDur !== undefined) {
@@ -1709,8 +1709,8 @@
     // Initial render & 3-second live polling loop
     checkTelemetryStatus();
     loadLiveTelemetry();
-    setInterval(loadLiveTelemetry, 3000);
-    setInterval(checkTelemetryStatus, 5000);
+    setInterval(loadLiveTelemetry, 30000);
+    setInterval(checkTelemetryStatus, 30000);
   </script>
 </body>
 </html>
