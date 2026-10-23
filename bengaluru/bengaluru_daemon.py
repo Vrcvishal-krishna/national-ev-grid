@@ -384,7 +384,7 @@ def poll_network_live(station_list):
                 if status != prev_status:
                     if prev_status == "CHARGING" and status == "AVAILABLE":
                         is_dc = "ccs" in str(c.get("type", "")).lower() or "dc" in str(c.get("type", "")).lower() or effective_kw >= 25.0
-                        max_session_sec = 5400 if is_dc else 14400
+                        max_session_sec = 5400 if is_dc else (43200 if effective_kw <= 3.6 else 25200)
                         raw_elapsed = max(1, now_epoch - last_changed)
                         dur_sec = min(raw_elapsed, max_session_sec)
                         dur_min = dur_sec / 60.0
@@ -415,7 +415,7 @@ def poll_network_live(station_list):
                 elapsed_sec = max(1, now_epoch - session_start)
 
                 is_dc = "ccs" in str(c.get("type", "")).lower() or "dc" in str(c.get("type", "")).lower() or effective_kw >= 25.0
-                max_session_sec = 5400 if is_dc else 14400
+                max_session_sec = 5400 if is_dc else (43200 if effective_kw <= 3.6 else 25200)
 
                 if elapsed_sec > max_session_sec:
                     dur_min = max_session_sec / 60.0
