@@ -623,20 +623,30 @@ class UnifiedRouterHandler(SimpleHTTPRequestHandler):
         # National API endpoints
         if path == '/api/debug_mumbai_fetch':
             res = {}
+            import traceback, urllib.request, ssl
+            # Test Tata direct
             try:
-                sys.path.insert(0, os.path.join(BASE_DIR, "mumbai"))
-                import mumbai_daemon
-                t = mumbai_daemon.fetch_tatapower_stations()
-                res["tata"] = {"count": len(t), "charging": sum(1 for s in t for c in s.get("connectors", []) if c.get("status") == "CHARGING")}
+                url = "https://ezcharge.tatapower.com/HobsIntegration/syncRequestHandler?transid=test&service=GET_CHARGING_STATIONS_ALL"
+                req = urllib.request.Request(url, data=b'{"userid":"","profileid":"PUBLIC","filter":{"radius":"","connector_type":"ALL"}}', headers={"Content-Type":"application/json","Authorization":"Basic NDUzNDY5VFBMOnNhZG1wd2Q=","User-Agent":"Mozilla/5.0"})
+                ctx = ssl.create_default_context()
+                ctx.check_hostname = False
+                ctx.verify_mode = ssl.CERT_NONE
+                with urllib.request.urlopen(req, timeout=8, context=ctx) as r:
+                    body = r.read()
+                    res["tata_raw"] = {"status": r.status, "len": len(body), "preview": body[:100].decode('utf-8', errors='ignore')}
             except Exception as e:
-                res["tata"] = {"error": str(e)}
+                res["tata_raw"] = {"error": str(e), "type": type(e).__name__}
 
+            # Test Jio direct
             try:
-                from jiobp_fetcher import fetch_jiobp_stations
-                j = fetch_jiobp_stations("mumbai", is_telemetry_running=True)
-                res["jio"] = {"count": len(j) if j else 0, "charging": sum(1 for s in j for c in s.get("connectors", []) if c.get("status") == "CHARGING") if j else 0}
+                import jiobp_fetcher
+                tkn = jiobp_fetcher.get_auth_token()
+                res["jio_token"] = bool(tkn)
+                # Check refresh
+                new_tkn = jiobp_fetcher.refresh_jiobp_token()
+                res["jio_refresh"] = bool(new_tkn)
             except Exception as e:
-                res["jio"] = {"error": str(e)}
+                res["jio_error"] = str(e)
 
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
