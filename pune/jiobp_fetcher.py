@@ -44,9 +44,12 @@ def refresh_jiobp_token(user_id=378981, refresh_token=None):
         with urllib.request.urlopen(req, timeout=8, context=SSL_CTX) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             new_auth = data.get("result", {}).get("auth_Token")
+            new_refresh = data.get("result", {}).get("refresh_Token")
             if new_auth:
                 td = load_token_data() or {}
                 td["auth_Token"] = new_auth
+                if new_refresh:
+                    td["refresh_Token"] = new_refresh
                 with open(TOKEN_FILE, "w") as f:
                     json.dump(td, f, indent=2)
                 return new_auth
@@ -71,6 +74,52 @@ def fetch_hub_models(loc_id, auth_token):
             return loc_id, d.get("result", {}).get("connectorModelCount", [])
     except Exception:
         return loc_id, []
+
+def fetch_hub_live_connectors(loc_id, auth_token):
+    u = "https://apid.jiobppulsecharge.com/TIMaster/api/ChrgIntermediate/MBgetChargeConnectorDetail"
+    h = dict(HEADERS)
+    h["Authorization"] = f"Bearer {auth_token}"
+    req = urllib.request.Request(u, data=json.dumps({"locId": str(loc_id)}).encode("utf-8"), headers=h)
+    for _ in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=8, context=SSL_CTX) as res:
+                d = json.loads(res.read().decode("utf-8"))
+                conns = d.get("result", {}).get("connectorDetail", [])
+                if conns:
+                    return loc_id, conns
+        except Exception:
+            time.sleep(0.15)
+    return loc_id, []
+
+def extract_connector_kw(c, loc_id):
+    op = c.get("outPutPower") or c.get("opValue")
+    if op:
+        kw = parse_kw(op)
+        if kw > 0:
+            return kw
+    box = str(c.get("chrgBoxId") or "").upper()
+    m_name = str(c.get("modelName") or "").upper()
+    if loc_id == 2802 or "375" in box:
+        return 375.0
+    if loc_id == 2772 or "360" in box:
+        return 360.0
+    if "240" in box:
+        return 240.0
+    if "120" in box:
+        return 120.0
+    if "60" in box:
+        return 60.0
+    if "30" in box:
+        return 30.0
+    if "IEC60309" in m_name or "3.3" in box:
+        return 3.3
+    if "TYPE2" in m_name or "7.4" in box or "7.5" in box:
+        return 7.5
+    if "22" in box:
+        return 22.0
+    if "CCS" in m_name:
+        return 60.0
+    return 60.0
 
 def parse_kw(op_val):
     if not op_val:
@@ -140,8 +189,33 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         elif city_lower == "mumbai":
             if (18.65 <= lat <= 19.55 and 72.65 <= lng <= 73.35) or any(k in combined for k in ['mumbai', 'navi mumbai', 'thane', 'vashi', 'kalyan', 'bhayandar', 'panvel', 'ulhasnagar', 'dombivli', 'palghar', 'vasai', 'virar', 'raigad', 'khalapur', 'khopoli', 'nerul', 'belapur', 'airoli', 'chembur', 'andheri', 'bandra', 'borivali', 'goregaon', 'malad', 'kurla', 'dadar', 'worli', 'bkc']):
                 target_hubs.append(s)
+        elif city_lower in ["delhi", "delhi-ncr"]:
+            if (28.20 <= lat <= 28.95 and 76.80 <= lng <= 77.60) or any(k in combined for k in ['delhi', 'new delhi', 'gurugram', 'gurgaon', 'noida', 'greater noida', 'faridabad', 'ghaziabad', 'manesar', 'aerocity', 'saket', 'dwarka', 'rohini', 'connaught', 'nehru place', 'okhla']):
+                target_hubs.append(s)
+        elif city_lower == "bengaluru":
+            if (12.75 <= lat <= 13.25 and 77.40 <= lng <= 77.85) or any(k in combined for k in ['bengaluru', 'bangalore', 'whitefield', 'electronic city', 'koramangala', 'indiranagar', 'marathahalli', 'hebbal', 'yelahanka', 'bellandur', 'sarjapur', 'hsr layout', 'jayanagar', 'peenya']):
+                target_hubs.append(s)
+        elif city_lower == "hyderabad":
+            if (17.15 <= lat <= 17.65 and 78.20 <= lng <= 78.70) or any(k in combined for k in ['hyderabad', 'secunderabad', 'gachibowli', 'madhapur', 'kondapur', 'hitec', 'shamshabad', 'banjara', 'jubilee', 'kukatpally', 'begumpet', 'financial district', 'miyapur']):
+                target_hubs.append(s)
+        elif city_lower == "kolkata":
+            if (22.35 <= lat <= 22.80 and 88.20 <= lng <= 88.55) or any(k in combined for k in ['kolkata', 'howrah', 'salt lake', 'new town', 'rajarhat', 'dum dum', 'bally', 'alipore', 'park street', 'esplanade']):
+                target_hubs.append(s)
+        elif city_lower == "ahmedabad":
+            if (22.85 <= lat <= 23.25 and 72.40 <= lng <= 72.75) or any(k in combined for k in ['ahmedabad', 'gandhinagar', 'gift city', 'sanand', 'bopal', 'sg highway', 'prahlad nagar', 'navrangpura', 'vastrapur']):
+                target_hubs.append(s)
 
-    # Load cached hub model definitions
+    # Fetch genuine live per-connector telemetry for target hubs concurrently
+    live_connectors_map = {}
+    if target_hubs:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
+            futures = [executor.submit(fetch_hub_live_connectors, s["locId"], auth_token) for s in target_hubs]
+            for fut in concurrent.futures.as_completed(futures):
+                lid, conns = fut.result()
+                if conns:
+                    live_connectors_map[lid] = conns
+
+    # Load cached hub model definitions (used as fallback)
     cache = {}
     if os.path.exists(CACHE_FILE):
         try:
@@ -150,8 +224,8 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         except Exception:
             cache = {}
 
-    # Check for hubs not in cache
-    missing_loc_ids = [s["locId"] for s in target_hubs if str(s["locId"]) not in cache]
+    # Check for hubs not in cache (fallback only)
+    missing_loc_ids = [s["locId"] for s in target_hubs if str(s["locId"]) not in cache and s["locId"] not in live_connectors_map]
     if missing_loc_ids:
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             futures = [executor.submit(fetch_hub_models, lid, auth_token) for lid in missing_loc_ids[:30]]
@@ -171,6 +245,15 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         loc_id = h_data["locId"]
         name = (h_data.get("locName") or f"Jio-bp Pulse Hub {loc_id}").strip()
         addr = (h_data.get("locAddress") or f"Jio-bp Station, {city.title()}").strip()
+        if loc_id == 2802:
+            name = "Jio-bp pulse - TATA.ev Megacharger (375kW Ultra-Fast) - Fountain Hotel, Ghodbunder Road"
+            addr = "Fountain Hotel Junction, Ghodbunder Road (NH 48), Versave, Mira-Bhayandar, Thane 401107"
+        elif loc_id == 2772:
+            name = "Jio-bp pulse Ultra-Fast Hub (360-375kW) - Maruti True Value, Owale, Ghodbunder Road"
+            addr = "Near Maruti True Value, Pankhada Rd, Owale, Ghodbunder Road, Thane West 400607"
+        elif loc_id == 2605:
+            addr = f"{addr}, Ghodbunder Road / Western Express Hwy Junction, Thane"
+
         lat = float(h_data.get("latitude") or 0)
         lng = float(h_data.get("longitude") or 0)
         total_guns = int(h_data.get("totalCount") or 0)
@@ -181,15 +264,55 @@ def fetch_jiobp_stations(city="pune", is_telemetry_running=False):
         if total_guns <= 0:
             continue
 
+        cd = live_connectors_map.get(loc_id)
         models = cache.get(str(loc_id), [])
         connectors = []
         gun_idx = 1
 
-        if models:
+        if cd:
+            # Direct live hardware connector telemetry from Jio-bp TIMaster API
+            cd_sorted = sorted(cd, key=lambda x: (str(x.get("chrgBoxId") or ""), int(x.get("connNum") or 0), int(x.get("connID") or 0)))
+            for idx, c in enumerate(cd_sorted, 1):
+                raw_status = (c.get("connStatus") or "Available").strip()
+                if raw_status in ["Charging", "Finishing", "In Use", "InUse", "Occupied", "Preparing"]:
+                    status = "CHARGING" if is_telemetry_running else "AVAILABLE"
+                elif raw_status in ["Faulted", "Unavailable", "Offline", "Error"]:
+                    status = "FAULTED"
+                else:
+                    status = "AVAILABLE"
+
+                m_name = (c.get("modelName") or "CCS").strip()
+                box_id = (c.get("chrgBoxId") or f"Ch{idx}").strip()
+                num = c.get("connNum") or 1
+                power_kw = extract_connector_kw(c, loc_id)
+                rate = float(c.get("connTarrif") or 21.0)
+                tot_guns_cab = 2 if "CCS" in m_name else (3 if "IEC60309" in m_name else 1)
+
+                port_key = f"JIO_{loc_id}_P{idx}"
+                type_str = f"{m_name}-2 ({power_kw:.1f}kW)" if m_name in ["CCS", "Type2"] else f"{m_name} ({power_kw:.1f}kW)"
+
+                connectors.append({
+                    "port_key": port_key,
+                    "charger_id": f"JIO_{loc_id}_{box_id}",
+                    "charger_label": f"Jio-bp {box_id}",
+                    "cabinet_kw": power_kw,
+                    "total_guns_on_cabinet": tot_guns_cab,
+                    "label": f"{box_id} - Gun {num} ({m_name} / {power_kw:.1f}kW)",
+                    "port_label": f"Gun {num}",
+                    "type": type_str,
+                    "power_kw": power_kw,
+                    "rate_inr": rate,
+                    "status": status,
+                    "duration": "-",
+                    "kwh": "0.0 kWh",
+                    "allocated_kw": power_kw,
+                    "effective_kw": round(power_kw * 0.75, 1)
+                })
+        elif isinstance(models, list) and models and all(isinstance(m, dict) for m in models):
             for m in models:
                 m_name = m.get("modelName", "CCS")
-                op_val = m.get("opValue", "60KW")
-                power_kw = parse_kw(op_val)
+                op_val = "375KW" if loc_id == 2802 else m.get("opValue", "60KW")
+                power_kw = 375.0 if loc_id == 2802 else parse_kw(op_val)
                 m_total = int(m.get("totalCount") or 1)
                 for _ in range(m_total):
                     port_key = f"JIO_{loc_id}_P{gun_idx}"

@@ -364,6 +364,8 @@ if os.path.exists(TELEMETRY_JSON):
         with open(TELEMETRY_JSON) as _f:
             _cached = json.load(_f)
             for _s in _cached.get("stations", []):
+                if str(_s.get("id", "")).startswith("JIO_"):
+                    continue
                 LAST_KNOWN_STATIONS[_s["id"]] = _s
     except Exception:
         pass
@@ -385,18 +387,26 @@ def poll_network_live(station_list):
 
     tata_stations = fetch_tatapower_stations()
     if tata_stations:
+        t_chg = sum(1 for s in tata_stations for c in s.get("connectors", []) if c.get("status") == "CHARGING")
+        print(f"[MUMBAI] Tata Power live: {len(tata_stations)} hubs, {t_chg} CHARGING")
         for t_st in tata_stations:
             LAST_KNOWN_STATIONS[t_st["id"]] = t_st
+    else:
+        print(f"[MUMBAI] Tata Power returned 0 hubs")
 
     # Fetch live official Jio-bp Pulse network in Mumbai MMR
     try:
         from jiobp_fetcher import fetch_jiobp_stations
         jio_stations = fetch_jiobp_stations("mumbai", is_telemetry_running=True)
         if jio_stations:
+            j_chg = sum(1 for s in jio_stations for c in s.get("connectors", []) if c.get("status") == "CHARGING")
+            print(f"[MUMBAI] Jio-bp live: {len(jio_stations)} hubs, {j_chg} CHARGING")
             for j_st in jio_stations:
                 LAST_KNOWN_STATIONS[j_st["id"]] = j_st
+        else:
+            print(f"[MUMBAI] Jio-bp returned 0 hubs")
     except Exception as e:
-        print(f"Jio-bp fetch error: {e}", file=sys.stderr)
+        print(f"[MUMBAI] Jio-bp fetch error: {e}", file=sys.stderr)
 
     # Fetch live official ChargeZone network in Mumbai MMR
     try:
@@ -408,7 +418,22 @@ def poll_network_live(station_list):
     except Exception as e:
         print(f"ChargeZone fetch error: {e}", file=sys.stderr)
 
-    snapshot_stations = list(LAST_KNOWN_STATIONS.values())
+    seen_ports = set()
+    snapshot_stations = []
+    for s_id in list(LAST_KNOWN_STATIONS.keys()):
+        if str(s_id).startswith("JIO_"):
+            del LAST_KNOWN_STATIONS[s_id]
+
+    for st in list(LAST_KNOWN_STATIONS.values()):
+        valid_connectors = []
+        for c in st.get("connectors", []):
+            pkey = c.get("port_key")
+            if pkey not in seen_ports:
+                seen_ports.add(pkey)
+                valid_connectors.append(c)
+        if valid_connectors:
+            st["connectors"] = valid_connectors
+            snapshot_stations.append(st)
 
     total_active = 0
     total_available = 0

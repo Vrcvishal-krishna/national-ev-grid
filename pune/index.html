@@ -570,7 +570,7 @@
   <header class="dashboard-header">
     <div class="dashboard-title" style="display:flex; align-items:center;"><a href="/" style="margin-right:12px; font-weight:700; color:#38bdf8; text-decoration:none; padding:4px 10px; border:1px solid #1e293b; background:#0f172a; font-size:11px;">&larr; ALL CITIES</a>
       <span>PUNE &amp; PCMC EV CHARGING TELEMETRY MONITOR</span>
-      <span class="badge-live"><span class="pulse-dot"></span> 257 HUBS (1,094 SOCKETS)</span>
+      <span class="badge-live" id="header-badge-live"><span class="pulse-dot"></span> <span id="badge-hubs-count">--</span> HUBS (<span id="badge-sockets-count">--</span> SOCKETS)</span>
     </div>
     <div class="header-controls">
       <button id="btn-telemetry-toggle" class="btn-action" style="background: #10b981; color: #020617; font-weight: 800; border: 1px solid #34d399; letter-spacing: 0.5px; padding: 6px 14px; box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);" onclick="toggleTelemetry()">▶ START LIVE TELEMETRY</button>
@@ -890,7 +890,7 @@
 
   <!-- FOOTER STATUS -->
   <footer class="footer-bar">
-    <span>COVERAGE: 375+ HUBS ACROSS PUNE &amp; PIMPRI-CHINCHWAD (1,250+ SOCKETS)</span>
+    <span id="footer-coverage-tag">COVERAGE: --</span>
     <span>HOSTED NETWORKS: TATA POWER EZ CHARGE | JIO-BP PULSE | CHARGEZONE | STATIQ | GOEGO | SHELL RECHARGE | BPCL</span>
     <span>ENGINE: 100% REAL LIVE TELEMETRY</span>
   </footer>
@@ -918,7 +918,9 @@
         if (GLOBAL_SEARCH_QUERY) {
           tag.innerHTML = `<span style="color:#00ffd5; font-weight:700;">Matching "${q}"</span>`;
         } else {
-          tag.innerHTML = `Searching all 257 hubs (1,094 sockets)`;
+          const hCount = (LIVE_DATA && LIVE_DATA.stations) ? LIVE_DATA.stations.length : "";
+          const sCount = (LIVE_DATA && LIVE_DATA.metrics && LIVE_DATA.metrics.total_guns) ? LIVE_DATA.metrics.total_guns : "";
+          tag.innerHTML = `Searching all ${hCount.toLocaleString()} hubs (${sCount.toLocaleString()} sockets)`;
         }
       }
     }
@@ -981,7 +983,18 @@
 
       document.getElementById("count-all").innerText = totalGuns;
       document.getElementById("count-charging").innerText = activeCharging;
-      document.getElementById("table-hubs-badge").innerText = `${LIVE_DATA.stations.length} HUBS (${totalGuns} SOCKETS)`;
+      document.getElementById("table-hubs-badge").innerText = `${LIVE_DATA.stations.length} HUBS (${totalGuns.toLocaleString()} SOCKETS)`;
+
+      const bHubs = document.getElementById("badge-hubs-count");
+      const bSockets = document.getElementById("badge-sockets-count");
+      if (bHubs) bHubs.innerText = LIVE_DATA.stations.length.toLocaleString();
+      if (bSockets) bSockets.innerText = totalGuns.toLocaleString();
+
+      const sTag = document.getElementById("search-status-tag");
+      if (sTag && !GLOBAL_SEARCH_QUERY) sTag.innerText = `Searching all ${LIVE_DATA.stations.length.toLocaleString()} hubs (${totalGuns.toLocaleString()} sockets)`;
+
+      const fCoverage = document.getElementById("footer-coverage-tag");
+      if (fCoverage) fCoverage.innerText = `COVERAGE: ${LIVE_DATA.stations.length.toLocaleString()} HUBS (${totalGuns.toLocaleString()} SOCKETS)`;
 
       // Filter ports using global search query or local search input
       const query = GLOBAL_SEARCH_QUERY || (document.getElementById("port-search")?.value || "").toLowerCase().trim();
@@ -1042,9 +1055,9 @@
         else if (c.status === "NO DATA") statusClass = "status-nodata";
 
         tr.innerHTML = `
-          <td style="font-weight: 600; color: #ffffff; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${c.stationName}">${c.stationName}</td>
+          <td style="font-weight: 600; color: #ffffff; max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${c.stationName}">${c.stationName}</td>
           <td style="color: #72d9ff;">${c.cpo}</td>
-          <td style="color: #a5b4fc; max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${c.label || c.id}">${c.label || c.id}</td>
+          <td style="color: #a5b4fc; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${c.label || c.id}">${c.label || c.id}</td>
           <td>${c.type}</td>
           <td><span class="status-pill ${statusClass}">${c.status}</span></td>
           <td style="color: ${c.status === 'CHARGING' ? '#00e5ff' : '#94a3b8'}">${c.duration}</td>
@@ -1383,7 +1396,7 @@
         tr.innerHTML = `
           <td style="font-weight: 700; text-align: center; color: #facc15;">${rankIcon}</td>
           <td style="font-weight: 600; color: #ffffff; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${st.name}">${st.name}</td>
-          <td style="color: #94a3b8; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${st.location}">${st.location}</td>
+          <td style="color: #94a3b8; max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${st.location}">${st.location}</td>
           <td style="color: #72d9ff;">${st.cpo}</td>
           <td style="text-align: center;">${st.ports_count}</td>
           <td style="font-weight: 700; color: #00ffd5; text-align: center;">${st.active_now}</td>

@@ -30,5 +30,4567 @@
       "availableCount": 2,
       "totalCount": 2
     }
+  ],
+  "579": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "602": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2011": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 8,
+      "totalCount": 12
+    }
+  ],
+  "2112": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "580": [
+    {
+      "modelName": "CCS",
+      "opValue": "30KW",
+      "availableCount": 1,
+      "totalCount": 1
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2815": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2648": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "137": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 4
+    }
+  ],
+  "279": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "278": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "288": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "294": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "1971": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "295": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "763": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "600": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "1984": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2083": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2685": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 1,
+      "totalCount": 4
+    }
+  ],
+  "1985": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "11KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "735": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 5
+    }
+  ],
+  "282": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "2772": [
+    {
+      "modelName": "CCS",
+      "opValue": "360KW",
+      "availableCount": 4,
+      "totalCount": 6
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "61": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "289": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "387": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "299": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "365": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "360": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "269": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2325": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "877": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2625": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "2297": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2280": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "98": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "728": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "377": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "139": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "97": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "38": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2901": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "336": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "411": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "37": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "479": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "96": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "636": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "210": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "184": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "77": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "353": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "836": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "623": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2340": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "1917": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "70": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2533": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 4
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "761": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "429": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2141": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 4,
+      "totalCount": 6
+    }
+  ],
+  "2549": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 5,
+      "totalCount": 6
+    }
+  ],
+  "2838": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "142": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "143": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "706": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 23,
+      "totalCount": 32
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 65,
+      "totalCount": 69
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2546": [
+    {
+      "modelName": "CCS",
+      "opValue": "360KW",
+      "availableCount": 20,
+      "totalCount": 22
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "102": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 20,
+      "totalCount": 24
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "650": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "171": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1407": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1915": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2014": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "106": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 22,
+      "totalCount": 32
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 105,
+      "totalCount": 114
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 4
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 4
+    }
+  ],
+  "396": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "1923": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "629": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 0,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "117": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "116": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "24": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "100": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 20,
+      "totalCount": 26
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 107,
+      "totalCount": 108
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "167": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "671": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "581": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "30KW",
+      "availableCount": 1,
+      "totalCount": 1
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "112": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2310": [
+    {
+      "modelName": "16Amp Home Socket",
+      "opValue": "11KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "498": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "718": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2021": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "56": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2536": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "2415": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 14,
+      "totalCount": 14
+    }
+  ],
+  "826": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "44": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "228": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "43": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 8,
+      "totalCount": 8
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "189": [
+    {
+      "modelName": "CCS",
+      "opValue": "30KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "68": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "416": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "670": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 15,
+      "totalCount": 24
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 57,
+      "totalCount": 57
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.4KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "2604": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "107": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "197": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2631": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2304": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1941": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1940": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2414": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "52": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "32": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2641": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2308": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "2309": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "724": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "1948": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "723": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "764": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "54": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "2598": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "1318": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2632": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2082": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "275": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "298": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "297": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "300": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "746": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 4
+    }
+  ],
+  "1970": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "766": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "358": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "814": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "969": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1303": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "1635": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "274": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2804": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2330": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 39,
+      "totalCount": 58
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2740": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "119": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 1,
+      "totalCount": 3
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2600": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "2799": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "263": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "284": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2983": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "453": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2063": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2636": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1952": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 4
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1949": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "787": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2062": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "59": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "859": [
+    {
+      "modelName": "CCS",
+      "opValue": "360KW",
+      "availableCount": 7,
+      "totalCount": 8
+    }
+  ],
+  "88": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "332": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "362": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "1950": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2645": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2273": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "521": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "20KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 46,
+      "totalCount": 69
+    }
+  ],
+  "1963": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2333": [
+    {
+      "modelName": "CCS",
+      "opValue": "360KW",
+      "availableCount": 0,
+      "totalCount": 8
+    }
+  ],
+  "57": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "637": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "829": [
+    {
+      "modelName": "CCS",
+      "opValue": "480KW",
+      "availableCount": 22,
+      "totalCount": 24
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 5,
+      "totalCount": 6
+    }
+  ],
+  "1454": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1451": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2559": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 6
+    }
+  ],
+  "555": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 14,
+      "totalCount": 20
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 86,
+      "totalCount": 87
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 4,
+      "totalCount": 4
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2534": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 6
+    }
+  ],
+  "335": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 8,
+      "totalCount": 16
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 101,
+      "totalCount": 102
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "11KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "824": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1957": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1962": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 1,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2847": [
+    {
+      "modelName": "16Amp Home Socket",
+      "opValue": "11KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "781": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "19": [
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 3,
+      "totalCount": 4
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "36": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2760": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2123": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 7,
+      "totalCount": 8
+    }
+  ],
+  "147": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "530": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "272": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "875": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2566": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "2650": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1390": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "816": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 13,
+      "totalCount": 20
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 3,
+      "totalCount": 4
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 46,
+      "totalCount": 58
+    }
+  ],
+  "53": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 9,
+      "totalCount": 12
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 8,
+      "totalCount": 10
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 4,
+      "totalCount": 5
+    }
+  ],
+  "138": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "60": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "225": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "610": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "144": [
+    {
+      "modelName": "CCS",
+      "opValue": "93KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "769": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1961": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 6,
+      "totalCount": 6
+    }
+  ],
+  "33": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "1321": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "1307": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "30": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "55": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "49": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "366": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "267": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2305": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "307": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "290": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 3
+    }
+  ],
+  "388": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "355": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "554": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "381": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "389": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2024": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "1938": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1981": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "563": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "1469": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "445": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "1471": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "856": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "404": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2368": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "261": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "281": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2601": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2802": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 5,
+      "totalCount": 8
+    }
+  ],
+  "296": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "64": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "337": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "303": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "118": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "356": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "1976": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "48": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "42": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2552": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "101": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 22,
+      "totalCount": 24
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 85,
+      "totalCount": 93
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "2805": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 46,
+      "totalCount": 48
+    }
+  ],
+  "166": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 18,
+      "totalCount": 24
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 67,
+      "totalCount": 72
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 4,
+      "totalCount": 5
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "621": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "373": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 24,
+      "totalCount": 32
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 110,
+      "totalCount": 120
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 4,
+      "totalCount": 7
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "807": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "375": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1409": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "857": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "705": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2525": [
+    {
+      "modelName": "16Amp Home Socket",
+      "opValue": "11KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2012": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "236": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1922": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "325": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2046": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "344": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1413": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "567": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "328": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2579": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "81": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 11,
+      "totalCount": 16
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 67,
+      "totalCount": 72
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2038": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "442": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 10,
+      "totalCount": 28
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 117,
+      "totalCount": 117
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 5
+    }
+  ],
+  "31": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "264": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "556": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "132": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "169": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "790": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "493": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1447": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "63": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "768": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "876": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "526": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "674": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "584": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "30KW",
+      "availableCount": 1,
+      "totalCount": 1
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "1314": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "2687": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "145": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "343": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "631": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 0,
+      "totalCount": 3
+    }
+  ],
+  "765": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 12,
+      "totalCount": 12
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2676": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 4
+    }
+  ],
+  "2595": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2822": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2947": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "367": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "208": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2736": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "2683": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 4
+    }
+  ],
+  "378": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "146": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 7,
+      "totalCount": 14
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 61,
+      "totalCount": 63
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 4
+    }
+  ],
+  "2966": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "420": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2965": [
+    {
+      "modelName": "CCS",
+      "opValue": "80KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "2008": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "783": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "40": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "215": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "677": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "841": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "593": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 5,
+      "totalCount": 22
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 71,
+      "totalCount": 72
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "933": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "858": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 6
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 9,
+      "totalCount": 9
+    }
+  ],
+  "25": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 18
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 69,
+      "totalCount": 75
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "11KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2061": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1708": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "2037": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "1999": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2295": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2590": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2681": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "364": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "725": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "376": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "815": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "482": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "854": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "380": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "853": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 5,
+      "totalCount": 6
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "480KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "794": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "964": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 15,
+      "totalCount": 16
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2033": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "2373": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2343": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2597": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2670": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2803": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "231": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "259": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 3,
+      "totalCount": 6
+    }
+  ],
+  "277": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "266": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "301": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "306": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 5
+    }
+  ],
+  "359": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "379": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "382": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "390": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "311": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "398": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 3
+    }
+  ],
+  "391": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "293": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "46": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "155": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "45": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "51": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "1997": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "2605": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "2704": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 4,
+      "totalCount": 6
+    }
+  ],
+  "1911": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 2,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2640": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2015": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "18": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 0,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 6,
+      "totalCount": 8
+    }
+  ],
+  "2169": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2274": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2656": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "67": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 4,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "130": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "280": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "276": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "399": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "262": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "283": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "797": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "361": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "385": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2278": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "260": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 4
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "159": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "931": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 3,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "273": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "268": [
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "414": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "357": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "1302": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 16,
+      "totalCount": 24
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 5,
+      "totalCount": 6
+    }
+  ],
+  "422": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "363": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "114": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2823": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "676": [
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2684": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "832": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 3
+    }
+  ],
+  "2739": [
+    {
+      "modelName": "CCS",
+      "opValue": "240KW",
+      "availableCount": 10,
+      "totalCount": 14
+    }
+  ],
+  "1983": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1953": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1712": [
+    {
+      "modelName": "CCS",
+      "opValue": "90KW",
+      "availableCount": 1,
+      "totalCount": 4
+    }
+  ],
+  "2677": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "1958": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2064": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "2727": [
+    {
+      "modelName": "CCS",
+      "opValue": "120KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "174": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "200": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "80": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 11,
+      "totalCount": 22
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 36,
+      "totalCount": 36
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 8,
+      "totalCount": 10
+    }
+  ],
+  "497": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "330": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "331": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "2146": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "1959": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2661": [
+    {
+      "modelName": "CCS",
+      "opValue": "360KW",
+      "availableCount": 10,
+      "totalCount": 10
+    }
+  ],
+  "2537": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "2821": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 4
+    }
+  ],
+  "669": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "87": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 3,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "2793": [
+    {
+      "modelName": "CCS",
+      "opValue": "180KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
+  ],
+  "407": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "805": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "634": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "1982": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "831": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "822": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "2296": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2824": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 0,
+      "totalCount": 3
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "22KW",
+      "availableCount": 0,
+      "totalCount": 1
+    }
+  ],
+  "345": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "115": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 2
+    }
+  ],
+  "803": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 1,
+      "totalCount": 2
+    }
+  ],
+  "384": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 0,
+      "totalCount": 20
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 0,
+      "totalCount": 135
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 0,
+      "totalCount": 64
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 0,
+      "totalCount": 4
+    }
+  ],
+  "66": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 6
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 111,
+      "totalCount": 111
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 6,
+      "totalCount": 6
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 3,
+      "totalCount": 4
+    }
+  ],
+  "110": [
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 5,
+      "totalCount": 6
+    }
+  ],
+  "82": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 16,
+      "totalCount": 26
+    },
+    {
+      "modelName": "IEC60309",
+      "opValue": "3.3KW",
+      "availableCount": 108,
+      "totalCount": 108
+    },
+    {
+      "modelName": "GBT",
+      "opValue": "30KW",
+      "availableCount": 2,
+      "totalCount": 2
+    },
+    {
+      "modelName": "Type2",
+      "opValue": "7.5KW",
+      "availableCount": 2,
+      "totalCount": 2
+    }
+  ],
+  "2225": [
+    {
+      "modelName": "CCS",
+      "opValue": "60KW",
+      "availableCount": 4,
+      "totalCount": 4
+    }
   ]
 }
